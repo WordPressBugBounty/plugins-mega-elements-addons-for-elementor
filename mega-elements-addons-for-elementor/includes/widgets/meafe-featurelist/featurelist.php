@@ -616,7 +616,7 @@ class MEAFE_Featurelist extends Widget_Base
                 $feature_has_icon = ( !empty( $item['bflcgs_feature_list_icon'] ) || !empty( $item['bflcgs_feature_list_icon_new'] ) );
 
                 if ( $item['bflcgs_feature_list_link']['url'] ) {
-                    $this->add_render_attribute( 'bflcgs_feature_list_link'.$i, 'href', $item['bflcgs_feature_list_link']['url'] );
+                    $this->add_render_attribute( 'bflcgs_feature_list_link'.$i, 'href', esc_url($item['bflcgs_feature_list_link']['url']) );
 
                     if ( $item['bflcgs_feature_list_link']['is_external'] ) {
                         $this->add_render_attribute( 'bflcgs_feature_list_link'.$i, 'target', '_blank' );

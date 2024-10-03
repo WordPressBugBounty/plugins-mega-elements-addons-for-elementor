@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor widgets, mega elements, elements
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -68,6 +68,10 @@ If you have any questions or face any issues, reach out to our [support team](ht
 == Images ==
 
 == Changelog ==
+
+=1.2.7=
+Released on: 2024-10-03
+Fix: Vulenrability seen in Featured List widget URL has been fixed.
 
 =1.2.6=
 Released on: 2024-09-10
