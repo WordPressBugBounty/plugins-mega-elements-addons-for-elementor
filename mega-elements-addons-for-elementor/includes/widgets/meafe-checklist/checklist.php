@@ -12,8 +12,7 @@ use Elementor\Widget_Base;
 use Elementor\Icons_Manager;
 use Elementor\Repeater;
 
-class MEAFE_Checklist extends Widget_Base
-{
+class MEAFE_Checklist extends Widget_Base {
 
     public function get_name() {
         return 'meafe-checklist';
@@ -35,8 +34,11 @@ class MEAFE_Checklist extends Widget_Base
         return ['meafe-checklist'];
     }
 
-    protected function register_controls()
-    {   
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+    
+    protected function register_controls() {   
         /**
          * Checklist General Settings
          */ 
@@ -469,7 +471,7 @@ class MEAFE_Checklist extends Widget_Base
         $is_icon = ( $settings['btcgs_checklist_icon_type'] == 'icon_only' ) ? true : false;
 
         $add_class = ( $is_icon ) ? ' icon-select' : ' counter-select';
-        $add_divider = ( $settings['btsgs_divider'] ) ? ' enabled-divider' : '';
+        $add_divider = ( isset($settings['btsgs_divider']) && $settings['btsgs_divider'] ) ? ' enabled-divider' : '';
         $this->add_render_attribute( 'btcgs_checklist_repeater', 'class', 'meafe-icon-list-items' . esc_attr($add_class) . esc_attr($add_divider) );
         $this->add_render_attribute( 'meafe_list_item', 'class', 'meafe-icon-list-item' );
         if( $settings['btcgs_checklist_icon_type'] == 'counter' ) {

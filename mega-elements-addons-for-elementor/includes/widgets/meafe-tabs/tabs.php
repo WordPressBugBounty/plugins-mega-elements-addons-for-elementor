@@ -15,8 +15,7 @@ use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
 
-class MEAFE_Tabs extends Widget_Base
-{
+class MEAFE_Tabs extends Widget_Base {
     public function get_name(){
         return 'meafe-tabs';
     }
@@ -41,8 +40,11 @@ class MEAFE_Tabs extends Widget_Base
         return ['meafe-tabs'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+    
+    protected function register_controls() {
         /**
          * Advance Tabs Settings
          */

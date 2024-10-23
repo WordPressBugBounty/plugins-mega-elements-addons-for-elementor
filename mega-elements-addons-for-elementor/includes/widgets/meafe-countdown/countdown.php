@@ -11,8 +11,7 @@ use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
 use Elementor\Group_Control_Box_Shadow;
 
-class MEAFE_Countdown extends Widget_Base
-{
+class MEAFE_Countdown extends Widget_Base {
 
     public function get_name() {
         return 'meafe-countdown';
@@ -41,8 +40,11 @@ class MEAFE_Countdown extends Widget_Base
         ];
     }
 
-    protected function register_controls() 
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Countdown General Settings
          */ 

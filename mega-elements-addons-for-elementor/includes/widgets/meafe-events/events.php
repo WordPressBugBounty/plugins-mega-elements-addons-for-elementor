@@ -15,8 +15,7 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Typography;
 
-class MEAFE_Events extends Widget_Base
-{
+class MEAFE_Events extends Widget_Base {
 
     public function get_name() {
         return 'meafe-events';
@@ -42,8 +41,11 @@ class MEAFE_Events extends Widget_Base
         return ['meafe-events'];
     }
 
-    protected function register_controls() 
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         $this->start_controls_section(
             'meafe_events_content_general_settings',
             array(

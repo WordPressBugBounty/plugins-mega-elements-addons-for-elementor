@@ -37,6 +37,10 @@ class MEAFE_Price_Menu extends Widget_Base {
         return ['meafe-price-menu'];
     }
 
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
     protected function register_controls() {
 
         /*-----------------------------------------------------------------------------------*/

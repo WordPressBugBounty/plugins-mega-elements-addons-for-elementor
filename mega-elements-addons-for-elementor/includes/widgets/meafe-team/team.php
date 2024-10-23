@@ -16,8 +16,7 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Image_Size;
 use Elementor\Group_Control_Typography;
 
-class MEAFE_Team extends Widget_Base
-{
+class MEAFE_Team extends Widget_Base {
 
     public function get_name() {
         return 'meafe-team';
@@ -39,6 +38,10 @@ class MEAFE_Team extends Widget_Base
         return ['meafe-team'];
     }
 
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+    
     protected function register_controls() {
 
         /**

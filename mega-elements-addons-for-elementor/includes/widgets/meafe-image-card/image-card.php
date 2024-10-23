@@ -16,8 +16,7 @@ use Elementor\Utils;
 use Elementor\Widget_Base;
 use Elementor\Repeater;
 
-class MEAFE_Image_Card  extends Widget_Base
-{
+class MEAFE_Image_Card  extends Widget_Base {
     public function get_name() {
         return 'meafe-image-card';
     }
@@ -38,8 +37,11 @@ class MEAFE_Image_Card  extends Widget_Base
         return ['meafe-image-card'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Timeline General Settings
         */
@@ -318,8 +320,7 @@ class MEAFE_Image_Card  extends Widget_Base
         $this->load_more_button_style();
     }         
     
-    protected function load_more_button_style()
-    {
+    protected function load_more_button_style() {
         /**
          * Blog Learn More Button Style
         */ 
@@ -516,7 +517,6 @@ class MEAFE_Image_Card  extends Widget_Base
         $this->end_controls_section();
     }
 
-
     protected function render() {
         $settings  = $this->get_settings_for_display();
         $layout    = $settings['IC_layouts'];
@@ -573,7 +573,5 @@ class MEAFE_Image_Card  extends Widget_Base
     <?php }
 
     protected function content_template(){
-
     }
-
 }

@@ -14,8 +14,7 @@ use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
 
-class MEAFE_Testimonial_Carousel extends Widget_Base
-{
+class MEAFE_Testimonial_Carousel extends Widget_Base {
 
     public function get_name() {
         return 'meafe-testimonial-carousel';
@@ -41,8 +40,11 @@ class MEAFE_Testimonial_Carousel extends Widget_Base
         return ['meafe-testimonial-carousel'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Testimonial General Settings
         */

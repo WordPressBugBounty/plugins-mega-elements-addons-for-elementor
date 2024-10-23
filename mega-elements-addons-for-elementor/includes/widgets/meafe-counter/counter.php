@@ -15,8 +15,7 @@ use Elementor\Icons_Manager;
 use Elementor\Control_Media;
 use Elementor\Utils;
 
-class MEAFE_Counter extends Widget_Base
-{
+class MEAFE_Counter extends Widget_Base {
 
     public function get_name() {
         return 'meafe-counter';
@@ -45,8 +44,11 @@ class MEAFE_Counter extends Widget_Base
         ];
     }
 
-    protected function register_controls() 
-    {    
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {    
         /**
          * Counter General Settings
          */

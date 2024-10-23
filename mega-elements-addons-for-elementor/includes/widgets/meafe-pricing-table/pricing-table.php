@@ -16,8 +16,7 @@ use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Typography;
 use Elementor\Group_Control_Image_Size;
 
-class MEAFE_Pricing_Table extends Widget_Base
-{
+class MEAFE_Pricing_Table extends Widget_Base {
 
     public function get_name() {
         return 'meafe-pricing-table';
@@ -42,6 +41,10 @@ class MEAFE_Pricing_Table extends Widget_Base
     public function get_script_depends() {
         return ['tooltip', 'meafe-pricing-table'];
     }
+
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
 
     /**
      * Register pricing table widget controls.
@@ -499,7 +502,7 @@ class MEAFE_Pricing_Table extends Widget_Base
         $this->start_controls_section(
             'section_tooltip',
             [
-                'label'                 => __( 'Tooltip', 'mega-elements-addons-for-elementor' ),
+                'label'  => __( 'Tooltip', 'mega-elements-addons-for-elementor' ),
             ]
         );
 

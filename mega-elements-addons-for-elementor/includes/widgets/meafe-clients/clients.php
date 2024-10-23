@@ -11,8 +11,7 @@ use Elementor\Widget_Base;
 use Elementor\Utils;
 use Elementor\Repeater;
 
-class MEAFE_Clients extends Widget_Base
-{
+class MEAFE_Clients extends Widget_Base {
 
     public function get_name() {
         return 'meafe-clients';
@@ -50,8 +49,11 @@ class MEAFE_Clients extends Widget_Base
         return apply_filters( 'meafe_grid_classes', esc_attr($grid_classes), $settings, $columns_field );
     }
 
-    protected function register_controls() 
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Clients General Settings
         */

@@ -15,8 +15,7 @@ use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
 use Elementor\Icons_Manager;
 
-class MEAFE_Accordion extends Widget_Base
-{
+class MEAFE_Accordion extends Widget_Base {
 
     public function get_name() {
         return 'meafe-accordion';
@@ -42,8 +41,11 @@ class MEAFE_Accordion extends Widget_Base
         return ['meafe-accordion'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+    
+    protected function register_controls() {
         /**
          * Accordion General Settings
          */
@@ -581,8 +583,7 @@ class MEAFE_Accordion extends Widget_Base
 
     }
 
-    protected function render()
-    {
+    protected function render() {
 
         $settings = $this->get_settings_for_display();
         $id_int = substr($this->get_id_int(), 0, 3);

@@ -15,8 +15,7 @@ use Elementor\Widget_Base;
 use Elementor\Utils;
 use Elementor\Repeater;
 
-class MEAFE_Featurelist extends Widget_Base
-{
+class MEAFE_Featurelist extends Widget_Base {
 
     public function get_name() {
         return 'meafe-featurelist';
@@ -38,8 +37,11 @@ class MEAFE_Featurelist extends Widget_Base
         return ['meafe-featurelist'];
     }
 
-    protected function register_controls() 
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Feature List General Settings
          */

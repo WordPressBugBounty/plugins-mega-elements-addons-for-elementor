@@ -18,38 +18,35 @@ use Elementor\Group_Control_Image_Size;
 use Elementor\Group_Control_Typography;
 
 class MEAFE_Timeline extends Widget_Base {
-    public function get_name()
-    {
+    public function get_name() {
         return 'meafe-timeline';
     }
 
-    public function get_title()
-    {
+    public function get_title() {
         return esc_html__('Timeline', 'mega-elements-addons-for-elementor');
     }
 
-    public function get_categories()
-    {
+    public function get_categories() {
         return ['meafe-elements'];
     }
 
-    public function get_icon()
-    {
+    public function get_icon() {
         return 'meafe-timeline';
     }
 
-    public function get_style_depends()
-    {
+    public function get_style_depends() {
         return ['meafe-timeline'];
     }
 
-    public function get_script_depends()
-    {
+    public function get_script_depends() {
         return ['meafe-timeline'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Timeline General Settings
          */
@@ -1251,8 +1248,7 @@ class MEAFE_Timeline extends Widget_Base {
         $this->end_controls_section();
     }
 
-    public function get_nav_details()
-    {
+    public function get_nav_details() {
         $settings   = $this->get_settings_for_display();
         $nav        = $settings['btcsis_timeline_swiper_nav'];
         $nav_prev   = $settings['btcsis_timeline_prev_icon'];
@@ -1305,7 +1301,7 @@ class MEAFE_Timeline extends Widget_Base {
         return (['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']);
     }
 
-    protected function render()    {
+    protected function render() {
         $settings  = $this->get_settings_for_display();
         $nav_icons = $this->get_nav_details();
 

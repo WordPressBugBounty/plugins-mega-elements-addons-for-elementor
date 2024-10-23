@@ -12,8 +12,7 @@ use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
 use Elementor\Utils;
 
-class MEAFE_Cta extends Widget_Base
-{
+class MEAFE_Cta extends Widget_Base {
 
     public function get_name() {
         return 'meafe-cta';
@@ -35,8 +34,11 @@ class MEAFE_Cta extends Widget_Base
         return ['meafe-cta'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+    
+    protected function register_controls() {
         /**
          * CTA Image Settings
          */

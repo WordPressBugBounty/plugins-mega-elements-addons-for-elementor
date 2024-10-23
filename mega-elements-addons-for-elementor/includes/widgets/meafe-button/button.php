@@ -14,8 +14,7 @@ use Elementor\Group_Control_Typography;
 use Elementor\Group_Control_Text_Shadow;
 use Elementor\Group_Control_Box_Shadow;
 
-class MEAFE_Button extends Widget_Base
-{
+class MEAFE_Button extends Widget_Base {
 
     public function get_name() {
         return 'meafe-button';
@@ -52,8 +51,11 @@ class MEAFE_Button extends Widget_Base
         return [];
     }
 
-    protected function register_controls() 
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Button General Settings
         */

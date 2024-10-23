@@ -15,8 +15,7 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Border;
 use Elementor\Repeater;
 
-class MEAFE_Services extends Widget_Base
-{
+class MEAFE_Services extends Widget_Base {
 
     public function get_name() {
         return 'meafe-services';
@@ -38,6 +37,10 @@ class MEAFE_Services extends Widget_Base
         return ['meafe-services'];
     }
 
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
     public function get_grid_classes( $settings, $columns_field = 'bscgs_service_per_line' ) {
         
         $grid_classes = ' meafe-grid-desktop-';
@@ -50,8 +53,7 @@ class MEAFE_Services extends Widget_Base
         return apply_filters( 'meafe_grid_classes', esc_attr($grid_classes), $settings, $columns_field );
     }
 
-    protected function register_controls()
-    {   
+    protected function register_controls() {   
         /**
          * Services General Settings
         */
@@ -907,8 +909,7 @@ class MEAFE_Services extends Widget_Base
         $this->end_controls_section();
     }
 
-    protected function render()
-    {
+    protected function render() {
         $settings = $this->get_settings_for_display();
         $migration_allowed = Icons_Manager::is_migration_allowed();
 

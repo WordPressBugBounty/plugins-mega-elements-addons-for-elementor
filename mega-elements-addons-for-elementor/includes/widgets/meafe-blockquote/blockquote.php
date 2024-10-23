@@ -15,8 +15,7 @@ use Elementor\Group_Control_Image_Size;
 use Elementor\Utils;
 use Elementor\Icons_Manager;
 
-class MEAFE_Blockquote extends Widget_Base
-{
+class MEAFE_Blockquote extends Widget_Base {
 
     public function get_name() {
         return 'meafe-blockquote';
@@ -38,8 +37,11 @@ class MEAFE_Blockquote extends Widget_Base
         return ['meafe-blockquote'];
     }
 
-    protected function register_controls()
-    {
+    protected function is_dynamic_content(): bool {
+		return false;
+	}
+
+    protected function register_controls() {
         /**
          * Blockquote General Settings
          */
