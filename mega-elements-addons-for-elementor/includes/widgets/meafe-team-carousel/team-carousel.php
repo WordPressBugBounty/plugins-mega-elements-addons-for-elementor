@@ -35,11 +35,11 @@ class MEAFE_Team_Carousel extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-team-carousel'];
+        return ['meafe-team-carousel', 'e-swiper', 'swiper'];
     }
 
     public function get_script_depends() {
-        return ['meafe-team-carousel'];
+        return ['meafe-team-carousel', 'swiper-bundle'];
     }
 
     protected function is_dynamic_content(): bool {

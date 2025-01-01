@@ -30,11 +30,11 @@ class MEAFE_Clients extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-clients'];
+        return ['meafe-clients', 'e-swiper', 'swiper'];
     }
     
     public function get_script_depends() {
-        return ['meafe-clients'];
+        return ['meafe-clients', 'swiper-bundle'];
     }
 
     public function get_grid_classes( $settings, $columns_field = 'bccgs_clients_per_line' ) {

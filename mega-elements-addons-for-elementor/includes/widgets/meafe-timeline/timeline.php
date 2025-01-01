@@ -35,11 +35,11 @@ class MEAFE_Timeline extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-timeline'];
+        return ['meafe-timeline', 'e-swiper', 'swiper'];
     }
 
     public function get_script_depends() {
-        return ['meafe-timeline'];
+        return ['meafe-timeline', 'swiper-bundle'];
     }
 
     protected function is_dynamic_content(): bool {

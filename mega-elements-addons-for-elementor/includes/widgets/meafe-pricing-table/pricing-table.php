@@ -1762,8 +1762,8 @@ class MEAFE_Pricing_Table extends Widget_Base {
                 'type'      => Controls_Manager::COLOR,
                 'default'   => '',
                 'selectors' => array(
-                    '{{WRAPPER}} .meafe-pricing-table-fature-icon' => 'color: {{VALUE}}',
-                    '{{WRAPPER}} .meafe-pricing-table-fature-icon svg' => 'fill: {{VALUE}}',
+                    '{{WRAPPER}} .meafe-pricing-table-feature-icon' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .meafe-pricing-table-feature-icon svg' => 'fill: {{VALUE}}',
                 ),
             )
         );
@@ -1782,7 +1782,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
                 ),
                 'size_units' => array( 'px', 'em' ),
                 'selectors'  => array(
-                    '{{WRAPPER}} .meafe-pricing-table-fature-icon' => 'font-size: {{SIZE}}{{UNIT}}',
+                    '{{WRAPPER}} .meafe-pricing-table-feature-icon' => 'font-size: {{SIZE}}{{UNIT}}',
                 ),
             )
         );
@@ -1801,7 +1801,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
                 ),
                 'size_units' => array( 'px' ),
                 'selectors'  => array(
-                    '{{WRAPPER}} .meafe-pricing-table-fature-icon' => 'margin-right: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .meafe-pricing-table-feature-icon' => 'margin-right: {{SIZE}}{{UNIT}};',
                 ),
             )
         );
@@ -2737,14 +2737,13 @@ class MEAFE_Pricing_Table extends Widget_Base {
         }
 
         if ( 'raised' === $settings['currency_format'] ) {
-            $price = explode( '.', $settings['table_price'] );
+            $formatted_price = number_format((float) $settings['table_price'], 2, '.', '');
+            $price = explode('.', $formatted_price);
             $intvalue = $price[0];
-            $fraction = '';
-            if ( 2 === count( $price ) ) {
-                $fraction = $price[1];
-            }
+            $fraction = $price[1];
         } else {
-            $intvalue = $settings['table_price'];
+            $formatted_price = number_format((float) $settings['table_price'], 2, '.', '');
+            $intvalue = $formatted_price;
             $fraction = '';
         }
         $allowedOptions = ['1', '2', '3', '4'];
@@ -2830,7 +2829,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
                             <div <?php echo $this->get_render_attribute_string( $feature_content_key ); ?>>
                                 <?php
                                 if ( ! empty( $item['select_feature_icon'] ) || ( ! empty( $item['feature_icon']['value'] ) && $is_new ) ) :
-                                    echo '<span class="meafe-pricing-table-fature-icon meafe-icon">';
+                                    echo '<span class="meafe-pricing-table-feature-icon meafe-icon">';
                                     if ( $is_new || $migrated ) {
                                         Icons_Manager::render_icon( $item['select_feature_icon'], [ 'aria-hidden' => 'true' ] );
                                     } else { ?>
@@ -2931,14 +2930,18 @@ class MEAFE_Pricing_Table extends Widget_Base {
                     symbol = settings.currency_symbol_custom;
                 }
             }
-           
+
+            function formatPrice(price) {
+                return parseFloat(price).toFixed(2);
+            }
+
             if ( settings.currency_format == 'raised' ) {
-                var table_price = settings.table_price.toString(),
-                    price = table_price.split( '.' ),
+                var formatted_price = formatPrice(settings.table_price),
+                    price = formatted_price.split('.'),
                     intvalue = price[0],
                     fraction = price[1];
             } else {
-                var intvalue = settings.table_price,
+                var intvalue = formatPrice(settings.table_price),
                     fraction = '';
             }
 
@@ -3123,7 +3126,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
                         <li class="elementor-repeater-item-{{ item._id }} <# if ( item.exclude == 'yes' ) { #> excluded <# } #>">
                             <div {{{ view.getRenderAttributeString( featureContentKey ) }}}>
                                 <# if ( item.select_feature_icon || item.feature_icon.value ) { #>
-                                    <span class="meafe-pricing-table-fature-icon meafe-icon">
+                                    <span class="meafe-pricing-table-feature-icon meafe-icon">
                                     <#
                                         iconsHTML[ index ] = elementor.helpers.renderIcon( view, item.select_feature_icon, { 'aria-hidden': true }, 'i', 'object' );
                                         iconsMigrated[ index ] = elementor.helpers.isIconMigrated( item, 'select_feature_icon' );

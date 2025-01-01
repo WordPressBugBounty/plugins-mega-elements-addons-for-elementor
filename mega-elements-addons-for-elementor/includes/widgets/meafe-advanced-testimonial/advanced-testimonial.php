@@ -34,11 +34,11 @@ class MEAFE_Advanced_Testimonial extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-advanced-testimonial'];
+        return ['meafe-advanced-testimonial', 'swiper', 'e-swiper'];
     }
 
     public function get_script_depends() {
-        return ['meafe-advanced-testimonial'];
+        return ['meafe-advanced-testimonial', 'swiper-bundle'];
     }
 
     protected function is_dynamic_content(): bool {

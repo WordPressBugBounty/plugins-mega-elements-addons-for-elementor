@@ -33,11 +33,11 @@ class MEAFE_Post_Carousel extends Widget_Base
     }
 
     public function get_style_depends() {
-        return ['meafe-post-carousel'];
+        return ['meafe-post-carousel', 'swiper', 'e-swiper'];
     }
 
     public function get_script_depends() {
-        return ['meafe-post-carousel'];
+        return ['meafe-post-carousel', 'swiper-bundle'];
     }
 
     public function get_authors() {

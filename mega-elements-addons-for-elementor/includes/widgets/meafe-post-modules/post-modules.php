@@ -907,7 +907,6 @@ class MEAFE_Post_Modules extends Widget_Base
             'PM_show_date'          => $settings['PM_show_date'],
             'PM_show_category'      => $settings['PM_show_category'],
             'PM_layout_mode'        => $settings['PM_layout_mode'],
-            ' PM_item_spacing  '    => $settings['PM_item_spacing'],
             'PM_orderby'            => $settings['PM_orderby'],
         ];
 

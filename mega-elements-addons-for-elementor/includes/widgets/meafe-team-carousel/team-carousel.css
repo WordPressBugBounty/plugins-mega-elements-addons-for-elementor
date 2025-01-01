@@ -67,7 +67,7 @@ svg {
     margin: 0 6.5px;
 }
 
-.elementor-widget-meafe-team-carousel .meafe-team-member-social-link {
+.elementor-widget-meafe-team-carousel .meafe-team-member-social-link.meafe-team-member-social-link {
     display: inline-block;
     margin: 5px;
     text-align: center;

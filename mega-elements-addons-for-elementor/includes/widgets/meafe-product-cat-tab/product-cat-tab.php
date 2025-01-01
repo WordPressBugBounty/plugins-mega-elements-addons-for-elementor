@@ -35,12 +35,12 @@ class MEAFE_Product_Cat_Tab extends Widget_Base
 
     public function get_style_depends()
     {
-        return ['meafe-product-cat-tab'];
+        return ['meafe-product-cat-tab', 'e-swiper', 'swiper'];
     }
 
     public function get_script_depends()
     {
-        return ['meafe-product-cat-tab'];
+        return ['meafe-product-cat-tab', 'swiper-bundle'];
     }
 
     protected function register_controls()

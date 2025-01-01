@@ -97,9 +97,13 @@
     text-align: left;
 }
 
-.meafe-pricing-table-feature-content .meafe-pricing-table-fature-icon {
+.meafe-pricing-table-feature-content .meafe-pricing-table-feature-icon  {
     font-size: 16px;
     margin-right: 10px;
+}
+
+.meafe-pricing-table-feature-content .meafe-pricing-table-feature-icon svg{
+    width: 1.125em;
 }
 
 .elementor-widget-meafe-pricing-table .meafe-pricing-table-features {
@@ -110,6 +114,7 @@
     font-size: 16px;
     line-height: 1.685;
     list-style: none;
+    margin-left: 0;
     margin-bottom: 20px;
     padding: 0;
     text-align: left;
@@ -558,6 +563,9 @@
 
 .elementor-widget-meafe-pricing-table.meafe-pricing-table-align-center .meafe-pricing-table-icon {
     margin: auto;
+}
+.elementor-widget-meafe-pricing-table .meafe-pricing-table-icon svg{
+    width: 1.125em;
 }
 
 

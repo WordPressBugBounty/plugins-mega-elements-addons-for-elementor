@@ -36,12 +36,12 @@ class MEAFE_Product_Grid extends Widget_Base
 
     public function get_style_depends()
     {
-        return ['meafe-product-grid'];
+        return ['meafe-product-grid', 'e-swiper', 'swiper'];
     }
 
     public function get_script_depends()
     {
-        return ['meafe-product-grid'];
+        return ['meafe-product-grid', 'swiper-bundle'];
     }
 
     protected function register_controls()

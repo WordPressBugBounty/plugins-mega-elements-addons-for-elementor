@@ -12,7 +12,7 @@
     flex: initial;
     flex-direction: column;
 }
-.elementor-widget-meafe-featurelist ul li{
+.elementor-widget-meafe-featurelist.elementor-widget-meafe-featurelist  ul li{
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;

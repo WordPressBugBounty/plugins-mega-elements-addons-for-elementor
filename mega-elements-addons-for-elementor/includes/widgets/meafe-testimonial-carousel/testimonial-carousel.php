@@ -33,11 +33,11 @@ class MEAFE_Testimonial_Carousel extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-testimonial-carousel'];
+        return ['meafe-testimonial-carousel', 'swiper', 'e-swiper'];
     }
 
     public function get_script_depends() {
-        return ['meafe-testimonial-carousel'];
+        return ['meafe-testimonial-carousel', 'swiper-bundle'];
     }
 
     protected function is_dynamic_content(): bool {

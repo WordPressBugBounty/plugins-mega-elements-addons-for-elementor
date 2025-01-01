@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor widgets, mega elements, elements
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.2.9
+Stable tag: 1.3.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -68,6 +68,14 @@ If you have any questions or face any issues, reach out to our [support team](ht
 == Images ==
 
 == Changelog ==
+
+=1.3.0=
+Released on: 2025-01-01
+* Fix: Design issue in Pricing Table widget has been fixed.
+* Fix: PHP warning shown in Post Module widget has been fixed.
+* Fix: Compatibility with Elementor swiper has been fixed for carousel widgets.
+* Fix: Icon background design issue in the Feature List widget has been fixed.
+* Fix: Social media alignment issue in the Team widget has been fixed.
 
 =1.2.9=
 Released on: 2024-11-21

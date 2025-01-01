@@ -3,7 +3,7 @@
  * Plugin Name:       Mega Elements - Addons for Elementor
  * Plugin URI:        https://kraftplugins.com/mega-elements/
  * Description:       The most advanced frontend drag & drop page builder addons for Elementor. Create high-end, beautiful, and pixel perfect websites in less time.
- * Version:           1.2.9
+ * Version:           1.3.0
  * Requires at least: 5.0
  * Requires PHP:      7.4
  * Author:            kraftplugins
@@ -12,7 +12,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       mega-elements-addons-for-elementor
  * Domain Path:       /languages
- * Elementor tested up to: 3.23.4
+ * Elementor tested up to: 3.26.3
  * Elementor Pro tested up to: 3.9.0
  *
  * Mega Elements - Addons for Elementor is distributed under the terms of the GNU
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define Constants
-define( 'MEGA_ELEMENTS_ADDONS_FOR_ELEMENTOR_VERSION', '1.2.9' );
+define( 'MEGA_ELEMENTS_ADDONS_FOR_ELEMENTOR_VERSION', '1.3.0' );
 define('MEGA_ELEMENTS_ADDONS_FOR_ELEMENTOR_URL', plugins_url( '/', __FILE__ ) );
 define('MEGA_ELEMENTS_ADDONS_FOR_ELEMENTOR_PATH', plugin_dir_path( __FILE__ ) );
 define('MEGA_ELEMENTS_ADDONS_FOR_ELEMENTOR_FILE', __FILE__);
