@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor widgets, mega elements, elements
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -68,6 +68,11 @@ If you have any questions or face any issues, reach out to our [support team](ht
 == Images ==
 
 == Changelog ==
+
+=1.3.1=
+Released on: 2025-02-19
+* Fix: Deprecated warning of _register_controls and _content_template has been fixed.
+* Fix: Removed elementor-widget-container class from services and testimonials carousel.
 
 =1.3.0=
 Released on: 2025-01-01

@@ -592,11 +592,11 @@
     padding-left: 20px;
 }
 
-.elementor-widget-container .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-next {
+.meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-next {
     right: -40px;
 }
 
-.elementor-widget-container .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-prev {
+.meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-prev {
     left: -40px;
 }
 
@@ -727,7 +727,7 @@
     font-size: 14px;
 }
 
-.elementor-widget-container .meafe-testimonial-carousel-main.layout-4 .meafe-testimonial-reviewer-thumb {
+.meafe-testimonial-carousel-main.layout-4 .meafe-testimonial-reviewer-thumb {
     overflow: hidden;
 }
 
@@ -956,11 +956,11 @@
 }
 
 @media only screen and (max-width:1368px) {
-    .elementor-widget-container .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-next {
+    .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-next {
         right: 0px;
     }
 
-    .elementor-widget-container .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-prev {
+    .meafe-testimonial-carousel-main.layout-4 .meafa-navigation-wrap .meafa-navigation-prev {
         left: 0px;
     }
 }

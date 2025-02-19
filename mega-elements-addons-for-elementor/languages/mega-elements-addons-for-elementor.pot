@@ -2,9 +2,9 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.0\n"
+"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 10:10:41+00:00\n"
+"POT-Creation-Date: 2025-02-19 11:10:25+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -119,8 +119,8 @@ msgstr ""
 
 #: includes/classes/class-widgets-manager.php:109
 #: includes/widgets/meafe-button/button.php:24
-#: includes/widgets/meafe-pricing-table/pricing-table.php:827
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2242
+#: includes/widgets/meafe-pricing-table/pricing-table.php:817
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2232
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:356
 msgid "Button"
 msgstr ""
@@ -492,10 +492,10 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:945
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1402
 #: includes/widgets/meafe-post-modules/post-modules.php:230
-#: includes/widgets/meafe-pricing-table/pricing-table.php:563
-#: includes/widgets/meafe-pricing-table/pricing-table.php:796
-#: includes/widgets/meafe-pricing-table/pricing-table.php:901
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1657
+#: includes/widgets/meafe-pricing-table/pricing-table.php:553
+#: includes/widgets/meafe-pricing-table/pricing-table.php:786
+#: includes/widgets/meafe-pricing-table/pricing-table.php:891
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1647
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:193
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:364
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:784
@@ -535,10 +535,10 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:953
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1410
 #: includes/widgets/meafe-post-modules/post-modules.php:234
-#: includes/widgets/meafe-pricing-table/pricing-table.php:564
-#: includes/widgets/meafe-pricing-table/pricing-table.php:804
-#: includes/widgets/meafe-pricing-table/pricing-table.php:909
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1665
+#: includes/widgets/meafe-pricing-table/pricing-table.php:554
+#: includes/widgets/meafe-pricing-table/pricing-table.php:794
+#: includes/widgets/meafe-pricing-table/pricing-table.php:899
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1655
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:201
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:372
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:792
@@ -682,19 +682,19 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:302
 #: includes/widgets/meafe-price-menu/price-menu.php:563
 #: includes/widgets/meafe-price-menu/price-menu.php:737
-#: includes/widgets/meafe-pricing-table/pricing-table.php:459
-#: includes/widgets/meafe-pricing-table/pricing-table.php:937
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1040
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1256
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1575
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1679
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1883
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1925
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2001
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2192
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2310
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2419
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2493
+#: includes/widgets/meafe-pricing-table/pricing-table.php:449
+#: includes/widgets/meafe-pricing-table/pricing-table.php:927
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1030
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1246
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1565
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1669
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1873
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1915
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1991
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2182
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2300
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2409
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2483
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:240
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:410
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:825
@@ -763,15 +763,15 @@ msgstr ""
 #: includes/widgets/meafe-post-modules/post-modules.php:731
 #: includes/widgets/meafe-price-menu/price-menu.php:333
 #: includes/widgets/meafe-price-menu/price-menu.php:611
-#: includes/widgets/meafe-pricing-table/pricing-table.php:962
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1085
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1327
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1616
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1703
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1856
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2098
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2366
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2505
+#: includes/widgets/meafe-pricing-table/pricing-table.php:952
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1075
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1317
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1606
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1693
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1846
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2088
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2356
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2495
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:275
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:324
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:397
@@ -819,12 +819,12 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:346
 #: includes/widgets/meafe-price-menu/price-menu.php:624
 #: includes/widgets/meafe-price-menu/price-menu.php:749
-#: includes/widgets/meafe-pricing-table/pricing-table.php:949
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1101
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1269
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2070
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2341
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2450
+#: includes/widgets/meafe-pricing-table/pricing-table.php:939
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1091
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1259
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2060
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2331
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2440
 #: includes/widgets/meafe-tabs/tabs.php:224
 #: includes/widgets/meafe-tabs/tabs.php:387
 #: includes/widgets/meafe-tabs/tabs.php:453
@@ -885,10 +885,10 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:356
 #: includes/widgets/meafe-price-menu/price-menu.php:634
 #: includes/widgets/meafe-price-menu/price-menu.php:759
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1114
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1279
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2083
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2381
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1104
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1269
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2073
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2371
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:213
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:345
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:901
@@ -942,9 +942,9 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:813
 #: includes/widgets/meafe-post-carousel/post-carousel.php:949
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1406
-#: includes/widgets/meafe-pricing-table/pricing-table.php:800
-#: includes/widgets/meafe-pricing-table/pricing-table.php:905
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1661
+#: includes/widgets/meafe-pricing-table/pricing-table.php:790
+#: includes/widgets/meafe-pricing-table/pricing-table.php:895
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1651
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:197
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:368
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:788
@@ -1012,12 +1012,12 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:440
 #: includes/widgets/meafe-price-menu/price-menu.php:501
 #: includes/widgets/meafe-price-menu/price-menu.php:701
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1054
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1138
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1170
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1244
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1761
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2137
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1044
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1128
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1160
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1234
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1751
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2127
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:813
 #: includes/widgets/meafe-services/services.php:559
 #: includes/widgets/meafe-services/services.php:602
@@ -1064,14 +1064,14 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:403
 #: includes/widgets/meafe-price-menu/price-menu.php:453
 #: includes/widgets/meafe-price-menu/price-menu.php:514
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1150
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1185
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1235
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1453
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1632
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1743
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2058
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2355
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1140
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1175
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1225
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1443
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1622
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1733
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2048
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2345
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:438
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:882
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:933
@@ -1102,11 +1102,11 @@ msgstr ""
 #: includes/widgets/meafe-cta/cta.php:711
 #: includes/widgets/meafe-featurelist/featurelist.php:504
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1381
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1196
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1461
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1793
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1821
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2271
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1186
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1451
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1783
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1811
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2261
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1190
 #: includes/widgets/meafe-testimonial/testimonial.php:749
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:820
@@ -1159,8 +1159,8 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:683
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1250
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1426
-#: includes/widgets/meafe-pricing-table/pricing-table.php:292
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2300
+#: includes/widgets/meafe-pricing-table/pricing-table.php:282
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2290
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:1129
 #: includes/widgets/meafe-services/services.php:727
 #: includes/widgets/meafe-tabs/tabs.php:335
@@ -1224,17 +1224,17 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1282
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1341
 #: includes/widgets/meafe-price-menu/price-menu.php:726
-#: includes/widgets/meafe-pricing-table/pricing-table.php:446
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1440
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1495
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1560
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1691
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1898
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1940
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2020
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2206
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2325
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2434
+#: includes/widgets/meafe-pricing-table/pricing-table.php:436
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1430
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1485
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1550
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1681
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1888
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1930
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2010
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2196
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2315
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2424
 #: includes/widgets/meafe-services/services.php:734
 #: includes/widgets/meafe-services/services.php:818
 #: includes/widgets/meafe-tabs/tabs.php:358
@@ -1298,8 +1298,8 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:550
 #: includes/widgets/meafe-post-carousel/post-carousel.php:750
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1309
-#: includes/widgets/meafe-pricing-table/pricing-table.php:528
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2409
+#: includes/widgets/meafe-pricing-table/pricing-table.php:518
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2399
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:402
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:677
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:842
@@ -1342,8 +1342,8 @@ msgstr ""
 #: includes/widgets/meafe-post-modules/post-modules.php:454
 #: includes/widgets/meafe-post-modules/post-modules.php:556
 #: includes/widgets/meafe-price-menu/price-menu.php:599
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1070
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1315
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1060
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1305
 #: includes/widgets/meafe-services/services.php:785
 #: includes/widgets/meafe-tabs/tabs.php:212
 #: includes/widgets/meafe-tabs/tabs.php:324
@@ -1450,13 +1450,13 @@ msgstr ""
 #: includes/widgets/meafe-featurelist/featurelist.php:80
 #: includes/widgets/meafe-price-menu/price-menu.php:86
 #: includes/widgets/meafe-price-menu/price-menu.php:101
-#: includes/widgets/meafe-pricing-table/pricing-table.php:132
-#: includes/widgets/meafe-pricing-table/pricing-table.php:147
-#: includes/widgets/meafe-pricing-table/pricing-table.php:416
-#: includes/widgets/meafe-pricing-table/pricing-table.php:597
-#: includes/widgets/meafe-pricing-table/pricing-table.php:609
-#: includes/widgets/meafe-pricing-table/pricing-table.php:974
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1752
+#: includes/widgets/meafe-pricing-table/pricing-table.php:122
+#: includes/widgets/meafe-pricing-table/pricing-table.php:137
+#: includes/widgets/meafe-pricing-table/pricing-table.php:406
+#: includes/widgets/meafe-pricing-table/pricing-table.php:587
+#: includes/widgets/meafe-pricing-table/pricing-table.php:599
+#: includes/widgets/meafe-pricing-table/pricing-table.php:964
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1742
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:141
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:155
 #: includes/widgets/meafe-services/services.php:96
@@ -1530,7 +1530,7 @@ msgstr ""
 #: includes/widgets/meafe-button/button.php:423
 #: includes/widgets/meafe-events/events.php:815
 #: includes/widgets/meafe-events/events.php:865
-#: includes/widgets/meafe-pricing-table/pricing-table.php:430
+#: includes/widgets/meafe-pricing-table/pricing-table.php:420
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:388
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:421
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:1066
@@ -1564,8 +1564,8 @@ msgstr ""
 #: includes/widgets/meafe-image-card/image-card.php:76
 #: includes/widgets/meafe-price-menu/price-menu.php:217
 #: includes/widgets/meafe-price-menu/price-menu.php:546
-#: includes/widgets/meafe-pricing-table/pricing-table.php:136
-#: includes/widgets/meafe-pricing-table/pricing-table.php:163
+#: includes/widgets/meafe-pricing-table/pricing-table.php:126
+#: includes/widgets/meafe-pricing-table/pricing-table.php:153
 #: includes/widgets/meafe-services/services.php:98
 #: includes/widgets/meafe-tabs/tabs.php:140
 #: includes/widgets/meafe-testimonial/testimonial.php:99
@@ -1651,7 +1651,7 @@ msgstr ""
 #: includes/widgets/meafe-category/category.php:89
 #: includes/widgets/meafe-events/events.php:60
 #: includes/widgets/meafe-image-card/image-card.php:59
-#: includes/widgets/meafe-pricing-table/pricing-table.php:107
+#: includes/widgets/meafe-pricing-table/pricing-table.php:97
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:60
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:59
 #: includes/widgets/meafe-product-grid/product-grid.php:60
@@ -1671,7 +1671,7 @@ msgstr ""
 #: includes/widgets/meafe-image-card/image-card.php:64
 #: includes/widgets/meafe-post-carousel/post-carousel.php:214
 #: includes/widgets/meafe-post-modules/post-modules.php:199
-#: includes/widgets/meafe-pricing-table/pricing-table.php:112
+#: includes/widgets/meafe-pricing-table/pricing-table.php:102
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:65
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:64
 #: includes/widgets/meafe-product-grid/product-grid.php:65
@@ -1691,7 +1691,7 @@ msgstr ""
 #: includes/widgets/meafe-image-card/image-card.php:65
 #: includes/widgets/meafe-post-carousel/post-carousel.php:215
 #: includes/widgets/meafe-post-modules/post-modules.php:200
-#: includes/widgets/meafe-pricing-table/pricing-table.php:113
+#: includes/widgets/meafe-pricing-table/pricing-table.php:103
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:66
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:65
 #: includes/widgets/meafe-product-grid/product-grid.php:66
@@ -1837,9 +1837,9 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1219
 #: includes/widgets/meafe-post-modules/post-modules.php:615
 #: includes/widgets/meafe-price-menu/price-menu.php:575
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1013
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1291
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2035
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1003
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1281
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2025
 #: includes/widgets/meafe-team/team.php:303
 #: includes/widgets/meafe-team/team.php:622
 #: includes/widgets/meafe-team/team.php:715
@@ -1895,10 +1895,10 @@ msgstr ""
 #: includes/widgets/meafe-price-menu/price-menu.php:69
 #: includes/widgets/meafe-price-menu/price-menu.php:70
 #: includes/widgets/meafe-price-menu/price-menu.php:382
-#: includes/widgets/meafe-pricing-table/pricing-table.php:189
-#: includes/widgets/meafe-pricing-table/pricing-table.php:194
-#: includes/widgets/meafe-pricing-table/pricing-table.php:696
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1129
+#: includes/widgets/meafe-pricing-table/pricing-table.php:179
+#: includes/widgets/meafe-pricing-table/pricing-table.php:184
+#: includes/widgets/meafe-pricing-table/pricing-table.php:686
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1119
 #: includes/widgets/meafe-testimonial/testimonial.php:270
 #: includes/widgets/meafe-testimonial/testimonial.php:640
 #: includes/widgets/meafe-testimonial/testimonial.php:671
@@ -1932,13 +1932,13 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1207
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1433
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1470
-#: includes/widgets/meafe-pricing-table/pricing-table.php:541
-#: includes/widgets/meafe-pricing-table/pricing-table.php:711
-#: includes/widgets/meafe-pricing-table/pricing-table.php:986
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1359
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1774
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2153
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2253
+#: includes/widgets/meafe-pricing-table/pricing-table.php:531
+#: includes/widgets/meafe-pricing-table/pricing-table.php:701
+#: includes/widgets/meafe-pricing-table/pricing-table.php:976
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1349
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1764
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2143
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2243
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1070
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1237
 #: includes/widgets/meafe-testimonial/testimonial.php:732
@@ -1973,8 +1973,8 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:941
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1397
 #: includes/widgets/meafe-post-modules/post-modules.php:226
-#: includes/widgets/meafe-pricing-table/pricing-table.php:896
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1652
+#: includes/widgets/meafe-pricing-table/pricing-table.php:886
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1642
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:187
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:360
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:779
@@ -2066,7 +2066,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:135
 #: includes/widgets/meafe-post-carousel/post-carousel.php:138
 #: includes/widgets/meafe-post-modules/post-modules.php:132
-#: includes/widgets/meafe-pricing-table/pricing-table.php:392
+#: includes/widgets/meafe-pricing-table/pricing-table.php:382
 msgid "Exclude"
 msgstr ""
 
@@ -2110,7 +2110,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:213
 #: includes/widgets/meafe-events/events.php:67
 #: includes/widgets/meafe-post-modules/post-modules.php:201
-#: includes/widgets/meafe-pricing-table/pricing-table.php:114
+#: includes/widgets/meafe-pricing-table/pricing-table.php:104
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:67
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:66
 #: includes/widgets/meafe-product-grid/product-grid.php:67
@@ -2124,7 +2124,7 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:214
 #: includes/widgets/meafe-post-modules/post-modules.php:202
-#: includes/widgets/meafe-pricing-table/pricing-table.php:115
+#: includes/widgets/meafe-pricing-table/pricing-table.php:105
 #: includes/widgets/meafe-testimonial/testimonial.php:66
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:155
 msgid "Layout Four"
@@ -2167,7 +2167,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:352
 #: includes/widgets/meafe-cta/cta.php:178
 #: includes/widgets/meafe-post-carousel/post-carousel.php:405
-#: includes/widgets/meafe-pricing-table/pricing-table.php:848
+#: includes/widgets/meafe-pricing-table/pricing-table.php:838
 msgid "Button Text"
 msgstr ""
 
@@ -2308,9 +2308,9 @@ msgstr ""
 #: includes/widgets/meafe-bten/bten.php:43
 #: includes/widgets/meafe-cf7/cf7.php:43
 #: includes/widgets/meafe-price-menu/price-menu.php:82
-#: includes/widgets/meafe-pricing-table/pricing-table.php:128
-#: includes/widgets/meafe-pricing-table/pricing-table.php:233
-#: includes/widgets/meafe-pricing-table/pricing-table.php:840
+#: includes/widgets/meafe-pricing-table/pricing-table.php:118
+#: includes/widgets/meafe-pricing-table/pricing-table.php:223
+#: includes/widgets/meafe-pricing-table/pricing-table.php:830
 #: includes/widgets/meafe-services/services.php:95
 #: includes/widgets/meafe-tabs/tabs.php:109
 msgid "None"
@@ -2386,8 +2386,8 @@ msgstr ""
 #: includes/widgets/meafe-button/button.php:72
 #: includes/widgets/meafe-checklist/checklist.php:88
 #: includes/widgets/meafe-price-menu/price-menu.php:90
-#: includes/widgets/meafe-pricing-table/pricing-table.php:379
-#: includes/widgets/meafe-pricing-table/pricing-table.php:596
+#: includes/widgets/meafe-pricing-table/pricing-table.php:369
+#: includes/widgets/meafe-pricing-table/pricing-table.php:586
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:126
 msgid "Text"
 msgstr ""
@@ -2413,7 +2413,7 @@ msgstr ""
 #: includes/widgets/meafe-checklist/checklist.php:102
 #: includes/widgets/meafe-featurelist/featurelist.php:126
 #: includes/widgets/meafe-price-menu/price-menu.php:131
-#: includes/widgets/meafe-pricing-table/pricing-table.php:860
+#: includes/widgets/meafe-pricing-table/pricing-table.php:850
 #: includes/widgets/meafe-team/team.php:238
 msgid "Link"
 msgstr ""
@@ -2431,34 +2431,34 @@ msgid "Icon Position"
 msgstr ""
 
 #: includes/widgets/meafe-button/button.php:159
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1385
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1375
 msgid "Before"
 msgstr ""
 
 #: includes/widgets/meafe-button/button.php:160
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1389
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1379
 msgid "After"
 msgstr ""
 
 #: includes/widgets/meafe-button/button.php:190
 #: includes/widgets/meafe-cta/cta.php:748
 #: includes/widgets/meafe-cta/cta.php:916
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2257
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2247
 msgid "Small"
 msgstr ""
 
 #: includes/widgets/meafe-button/button.php:191
 #: includes/widgets/meafe-cta/cta.php:749
 #: includes/widgets/meafe-cta/cta.php:917
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2258
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2248
 msgid "Medium"
 msgstr ""
 
 #: includes/widgets/meafe-button/button.php:192
 #: includes/widgets/meafe-cta/cta.php:750
 #: includes/widgets/meafe-cta/cta.php:918
-#: includes/widgets/meafe-pricing-table/pricing-table.php:546
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2259
+#: includes/widgets/meafe-pricing-table/pricing-table.php:536
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2249
 msgid "Large"
 msgstr ""
 
@@ -2580,7 +2580,7 @@ msgstr ""
 #: includes/widgets/meafe-checklist/checklist.php:55
 #: includes/widgets/meafe-counter/counter.php:155
 #: includes/widgets/meafe-featurelist/featurelist.php:60
-#: includes/widgets/meafe-pricing-table/pricing-table.php:123
+#: includes/widgets/meafe-pricing-table/pricing-table.php:113
 #: includes/widgets/meafe-services/services.php:91
 #: includes/widgets/meafe-tabs/tabs.php:104
 msgid "Icon Type"
@@ -2617,8 +2617,8 @@ msgid "Space Between"
 msgstr ""
 
 #: includes/widgets/meafe-checklist/checklist.php:187
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1949
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1959
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1969
 #: includes/widgets/meafe-timeline/timeline.php:740
 msgid "Divider"
 msgstr ""
@@ -2626,21 +2626,21 @@ msgstr ""
 #: includes/widgets/meafe-checklist/checklist.php:189
 #: includes/widgets/meafe-price-menu/price-menu.php:179
 #: includes/widgets/meafe-price-menu/price-menu.php:208
-#: includes/widgets/meafe-pricing-table/pricing-table.php:304
+#: includes/widgets/meafe-pricing-table/pricing-table.php:294
 msgid "Off"
 msgstr ""
 
 #: includes/widgets/meafe-checklist/checklist.php:190
 #: includes/widgets/meafe-price-menu/price-menu.php:178
 #: includes/widgets/meafe-price-menu/price-menu.php:207
-#: includes/widgets/meafe-pricing-table/pricing-table.php:303
+#: includes/widgets/meafe-pricing-table/pricing-table.php:293
 msgid "On"
 msgstr ""
 
 #: includes/widgets/meafe-checklist/checklist.php:203
 #: includes/widgets/meafe-counter/counter.php:392
 #: includes/widgets/meafe-price-menu/price-menu.php:663
-#: includes/widgets/meafe-pricing-table/pricing-table.php:679
+#: includes/widgets/meafe-pricing-table/pricing-table.php:669
 msgid "Style"
 msgstr ""
 
@@ -2966,8 +2966,8 @@ msgstr ""
 #: includes/widgets/meafe-counter/counter.php:205
 #: includes/widgets/meafe-cta/cta.php:346
 #: includes/widgets/meafe-featurelist/featurelist.php:232
-#: includes/widgets/meafe-pricing-table/pricing-table.php:561
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1404
+#: includes/widgets/meafe-pricing-table/pricing-table.php:551
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1394
 #: includes/widgets/meafe-tabs/tabs.php:90
 #: includes/widgets/meafe-testimonial/testimonial.php:501
 msgid "Top"
@@ -3196,18 +3196,18 @@ msgid "Max. Width"
 msgstr ""
 
 #: includes/widgets/meafe-cta/cta.php:341
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1399
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1389
 msgid "Vertical Position"
 msgstr ""
 
 #: includes/widgets/meafe-cta/cta.php:350
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1408
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1398
 msgid "Middle"
 msgstr ""
 
 #: includes/widgets/meafe-cta/cta.php:354
-#: includes/widgets/meafe-pricing-table/pricing-table.php:562
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1412
+#: includes/widgets/meafe-pricing-table/pricing-table.php:552
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1402
 #: includes/widgets/meafe-tabs/tabs.php:91
 #: includes/widgets/meafe-testimonial/testimonial.php:502
 msgid "Bottom"
@@ -3245,7 +3245,7 @@ msgstr ""
 
 #: includes/widgets/meafe-cta/cta.php:751
 #: includes/widgets/meafe-cta/cta.php:919
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2260
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2250
 msgid "Extra Large"
 msgstr ""
 
@@ -3415,7 +3415,7 @@ msgid "Icon Shape"
 msgstr ""
 
 #: includes/widgets/meafe-featurelist/featurelist.php:200
-#: includes/widgets/meafe-pricing-table/pricing-table.php:684
+#: includes/widgets/meafe-pricing-table/pricing-table.php:674
 msgid "Circle"
 msgstr ""
 
@@ -3589,19 +3589,19 @@ msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:162
 #: includes/widgets/meafe-price-menu/price-menu.php:432
-#: includes/widgets/meafe-pricing-table/pricing-table.php:275
+#: includes/widgets/meafe-pricing-table/pricing-table.php:265
 msgid "Price"
 msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:175
-#: includes/widgets/meafe-pricing-table/pricing-table.php:300
+#: includes/widgets/meafe-pricing-table/pricing-table.php:290
 msgid "Discount"
 msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:188
 #: includes/widgets/meafe-price-menu/price-menu.php:461
-#: includes/widgets/meafe-pricing-table/pricing-table.php:312
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1483
+#: includes/widgets/meafe-pricing-table/pricing-table.php:302
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1473
 msgid "Original Price"
 msgstr ""
 
@@ -3639,20 +3639,20 @@ msgid "Title-Price Connector"
 msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:272
-#: includes/widgets/meafe-pricing-table/pricing-table.php:395
-#: includes/widgets/meafe-pricing-table/pricing-table.php:515
-#: includes/widgets/meafe-pricing-table/pricing-table.php:579
-#: includes/widgets/meafe-pricing-table/pricing-table.php:670
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1847
+#: includes/widgets/meafe-pricing-table/pricing-table.php:385
+#: includes/widgets/meafe-pricing-table/pricing-table.php:505
+#: includes/widgets/meafe-pricing-table/pricing-table.php:569
+#: includes/widgets/meafe-pricing-table/pricing-table.php:660
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1837
 msgid "Yes"
 msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:273
-#: includes/widgets/meafe-pricing-table/pricing-table.php:396
-#: includes/widgets/meafe-pricing-table/pricing-table.php:516
-#: includes/widgets/meafe-pricing-table/pricing-table.php:580
-#: includes/widgets/meafe-pricing-table/pricing-table.php:671
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1848
+#: includes/widgets/meafe-pricing-table/pricing-table.php:386
+#: includes/widgets/meafe-pricing-table/pricing-table.php:506
+#: includes/widgets/meafe-pricing-table/pricing-table.php:570
+#: includes/widgets/meafe-pricing-table/pricing-table.php:661
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1838
 msgid "No"
 msgstr ""
 
@@ -3666,7 +3666,7 @@ msgstr ""
 
 #: includes/widgets/meafe-price-menu/price-menu.php:411
 #: includes/widgets/meafe-price-menu/price-menu.php:522
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1723
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1713
 msgid "Margin Bottom"
 msgstr ""
 
@@ -3690,303 +3690,303 @@ msgstr ""
 msgid "Title Suffix Style"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:100
-#: includes/widgets/meafe-pricing-table/pricing-table.php:929
+#: includes/widgets/meafe-pricing-table/pricing-table.php:90
+#: includes/widgets/meafe-pricing-table/pricing-table.php:919
 msgid "Header"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:195
+#: includes/widgets/meafe-pricing-table/pricing-table.php:185
 msgid "Enter table title"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:202
+#: includes/widgets/meafe-pricing-table/pricing-table.php:192
 msgid "Subtitle"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:207
+#: includes/widgets/meafe-pricing-table/pricing-table.php:197
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:208
+#: includes/widgets/meafe-pricing-table/pricing-table.php:198
 msgid "Enter table subtitle"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:223
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1226
+#: includes/widgets/meafe-pricing-table/pricing-table.php:213
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1216
 msgid "Pricing"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:230
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1347
+#: includes/widgets/meafe-pricing-table/pricing-table.php:220
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1337
 msgid "Currency Symbol"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:234
+#: includes/widgets/meafe-pricing-table/pricing-table.php:224
 msgid "Dollar"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:235
+#: includes/widgets/meafe-pricing-table/pricing-table.php:225
 msgid "Euro"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:236
+#: includes/widgets/meafe-pricing-table/pricing-table.php:226
 msgid "Baht"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:237
+#: includes/widgets/meafe-pricing-table/pricing-table.php:227
 msgid "Franc"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:238
+#: includes/widgets/meafe-pricing-table/pricing-table.php:228
 msgid "Guilder"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:239
+#: includes/widgets/meafe-pricing-table/pricing-table.php:229
 msgid "Krona"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:240
+#: includes/widgets/meafe-pricing-table/pricing-table.php:230
 msgid "Lira"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:241
+#: includes/widgets/meafe-pricing-table/pricing-table.php:231
 msgid "Peseta"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:242
+#: includes/widgets/meafe-pricing-table/pricing-table.php:232
 msgid "Peso"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:243
+#: includes/widgets/meafe-pricing-table/pricing-table.php:233
 msgid "Pound Sterling"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:244
+#: includes/widgets/meafe-pricing-table/pricing-table.php:234
 msgid "Real"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:245
+#: includes/widgets/meafe-pricing-table/pricing-table.php:235
 msgid "Ruble"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:246
+#: includes/widgets/meafe-pricing-table/pricing-table.php:236
 msgid "Rupee"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:247
+#: includes/widgets/meafe-pricing-table/pricing-table.php:237
 msgid "Rupee (Indian)"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:248
+#: includes/widgets/meafe-pricing-table/pricing-table.php:238
 msgid "Shekel"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:249
+#: includes/widgets/meafe-pricing-table/pricing-table.php:239
 msgid "Yen/Yuan"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:250
+#: includes/widgets/meafe-pricing-table/pricing-table.php:240
 msgid "Won"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:251
+#: includes/widgets/meafe-pricing-table/pricing-table.php:241
 msgid "Custom"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:260
+#: includes/widgets/meafe-pricing-table/pricing-table.php:250
 msgid "Custom Symbol"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:287
+#: includes/widgets/meafe-pricing-table/pricing-table.php:277
 msgid "Currency Format"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:291
+#: includes/widgets/meafe-pricing-table/pricing-table.php:281
 msgid "Raised"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:327
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1431
+#: includes/widgets/meafe-pricing-table/pricing-table.php:317
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1421
 msgid "Duration"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:329
+#: includes/widgets/meafe-pricing-table/pricing-table.php:319
 msgid "per month"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:336
+#: includes/widgets/meafe-pricing-table/pricing-table.php:326
 msgid "Duration Position"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:340
+#: includes/widgets/meafe-pricing-table/pricing-table.php:330
 msgid "Same Line"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:341
+#: includes/widgets/meafe-pricing-table/pricing-table.php:331
 msgid "Next Line"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:358
-#: includes/widgets/meafe-pricing-table/pricing-table.php:370
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1540
+#: includes/widgets/meafe-pricing-table/pricing-table.php:348
+#: includes/widgets/meafe-pricing-table/pricing-table.php:360
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1530
 msgid "Features"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:365
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1548
+#: includes/widgets/meafe-pricing-table/pricing-table.php:355
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1538
 msgid "Features Title"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:384
-#: includes/widgets/meafe-pricing-table/pricing-table.php:385
+#: includes/widgets/meafe-pricing-table/pricing-table.php:374
+#: includes/widgets/meafe-pricing-table/pricing-table.php:375
 msgid "Feature"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:404
+#: includes/widgets/meafe-pricing-table/pricing-table.php:394
 msgid "Tooltip Content"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:406
+#: includes/widgets/meafe-pricing-table/pricing-table.php:396
 msgid "This is a tooltip"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:475
+#: includes/widgets/meafe-pricing-table/pricing-table.php:465
 msgid "Feature #1"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:479
+#: includes/widgets/meafe-pricing-table/pricing-table.php:469
 msgid "Feature #2"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:483
+#: includes/widgets/meafe-pricing-table/pricing-table.php:473
 msgid "Feature #3"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:505
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1990
+#: includes/widgets/meafe-pricing-table/pricing-table.php:495
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1980
 msgid "Tooltip"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:512
+#: includes/widgets/meafe-pricing-table/pricing-table.php:502
 msgid "Enable Tooltip"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:524
+#: includes/widgets/meafe-pricing-table/pricing-table.php:514
 msgid "Trigger"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:529
+#: includes/widgets/meafe-pricing-table/pricing-table.php:519
 msgid "Click"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:545
-#: includes/widgets/meafe-pricing-table/pricing-table.php:683
+#: includes/widgets/meafe-pricing-table/pricing-table.php:535
+#: includes/widgets/meafe-pricing-table/pricing-table.php:673
 #: includes/widgets/meafe-timeline/timeline.php:963
 msgid "Default"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:557
-#: includes/widgets/meafe-pricing-table/pricing-table.php:790
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1379
+#: includes/widgets/meafe-pricing-table/pricing-table.php:547
+#: includes/widgets/meafe-pricing-table/pricing-table.php:780
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1369
 msgid "Position"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:575
+#: includes/widgets/meafe-pricing-table/pricing-table.php:565
 msgid "Show Arrow"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:592
+#: includes/widgets/meafe-pricing-table/pricing-table.php:582
 msgid "Display On"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:625
-#: includes/widgets/meafe-pricing-table/pricing-table.php:769
+#: includes/widgets/meafe-pricing-table/pricing-table.php:615
+#: includes/widgets/meafe-pricing-table/pricing-table.php:759
 msgid "Distance"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:626
+#: includes/widgets/meafe-pricing-table/pricing-table.php:616
 msgid "The distance between the text/icon and the tooltip."
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:660
-#: includes/widgets/meafe-pricing-table/pricing-table.php:685
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2184
+#: includes/widgets/meafe-pricing-table/pricing-table.php:650
+#: includes/widgets/meafe-pricing-table/pricing-table.php:675
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2174
 msgid "Ribbon"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:667
+#: includes/widgets/meafe-pricing-table/pricing-table.php:657
 msgid "Show Ribbon"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:701
+#: includes/widgets/meafe-pricing-table/pricing-table.php:691
 msgid "New"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:741
+#: includes/widgets/meafe-pricing-table/pricing-table.php:731
 msgid "Distance from Top"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:834
+#: includes/widgets/meafe-pricing-table/pricing-table.php:824
 msgid "Button Position"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:838
+#: includes/widgets/meafe-pricing-table/pricing-table.php:828
 msgid "Above Features"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:839
+#: includes/widgets/meafe-pricing-table/pricing-table.php:829
 msgid "Below Features"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:853
+#: includes/widgets/meafe-pricing-table/pricing-table.php:843
 msgid "Get Started"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:888
+#: includes/widgets/meafe-pricing-table/pricing-table.php:878
 msgid "Table"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1158
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1148
 msgid "Sub Title"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1510
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1500
 msgid "Font Size"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1590
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1580
 msgid "Margin Top"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1643
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1633
 msgid "Features Content"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1812
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1802
 msgid "Rows"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1844
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1834
 msgid "Striped Rows"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1873
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1863
 msgid "Even"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:1915
+#: includes/widgets/meafe-pricing-table/pricing-table.php:1905
 msgid "Odd"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2124
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2114
 msgid "Tooltip Icon"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2463
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2453
 msgid "Animation"
 msgstr ""
 
-#: includes/widgets/meafe-pricing-table/pricing-table.php:2485
+#: includes/widgets/meafe-pricing-table/pricing-table.php:2475
 msgid "Footer"
 msgstr ""
 

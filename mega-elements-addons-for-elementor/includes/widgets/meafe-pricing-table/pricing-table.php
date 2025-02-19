@@ -46,16 +46,6 @@ class MEAFE_Pricing_Table extends Widget_Base {
 		return false;
 	}
 
-    /**
-     * Register pricing table widget controls.
-     *
-     * Adds different input fields to allow the user to change and customize the widget settings.
-     *
-     * @access protected
-     */
-    protected function register_controls() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
-        $this->meafe_register_controls();
-    }
 
     /**
      * Register pricing table widget controls.
@@ -65,7 +55,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
      * @since 2.2.5
      * @access protected
      */
-    protected function meafe_register_controls() {
+    protected function register_controls() {
         /* Content Tab */
         $this->register_content_header_controls();
         $this->register_content_pricing_controls();
@@ -2891,7 +2881,7 @@ class MEAFE_Pricing_Table extends Widget_Base {
      *
      * @access protected
      */
-    protected function get_content_template() {
+    protected function content_template() {
         ?>
         <#
             var buttonClasses = 'meafe-pricing-table-button elementor-button elementor-size-' + settings.table_button_size + ' elementor-animation-' + settings.button_hover_animation;
@@ -3192,19 +3182,5 @@ class MEAFE_Pricing_Table extends Widget_Base {
             <# } #>
         </div>
         <?php
-    }
-
-    /**
-     * Render pricing table widget output in the editor.
-     *
-     * Written as a Backbone JavaScript template and used to generate the live preview.
-     *
-     * Remove this after Elementor v3.3.0
-     *
-     * @since 1.0.0
-     * @access protected
-     */
-    protected function content_template() { // phpcs:ignore PSR2.Methods.MethodDeclaration.Underscore
-        $this->get_content_template();
     }
 }
