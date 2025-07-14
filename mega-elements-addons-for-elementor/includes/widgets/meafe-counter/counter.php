@@ -658,7 +658,7 @@ class MEAFE_Counter extends Widget_Base {
         
         $this->add_render_attribute( 'counter', [
                 'class'             => [ 'meafe-counter', 'meafe-counter-area' ],
-                'data-duration'     => $settings['bccgs_counter_speed'] * 1000,
+                'data-duration'     => intval( $settings['bccgs_counter_speed'] ) * 1000,
                 'data-from-value'   => $settings['bccgs_counter_start_value'],
                 'data-to-value'     => $settings['bccgs_counter_end_value'],
                 'data-delimiter'    => $settings['bccgs_counter_t_separator'],
