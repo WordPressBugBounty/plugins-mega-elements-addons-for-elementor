@@ -844,7 +844,7 @@ class MEAFE_Price_Menu extends Widget_Base {
                                                 if ( ! empty( $item['bpmcgs_price_link']['is_external'] ) ) {
                                                     $this->add_render_attribute( 'price-menu-link' . $i, 'target', '_blank' );
                                                 } ?>
-                                                <a <?php echo $this->get_render_attribute_string( 'price-menu-link' . $i ); ?>>
+                                                <a <?php echo $this->get_render_attribute_string( 'price-menu-link' . esc_attr( $i ) ); ?>>
                                                     <?php echo esc_html($item['bpmcgs_price_title_text']); ?>
                                                 </a>
                                             <?php
@@ -880,7 +880,7 @@ class MEAFE_Price_Menu extends Widget_Base {
                             if ( ! empty( $item['bpmcgs_price_menu_description'] ) ) {
                                 $description_html = sprintf( '<div %1$s>%2$s</div>', $this->get_render_attribute_string( $description_key ), wp_kses_post($item['bpmcgs_price_menu_description']) );
                                 
-                                echo $description_html;
+                                echo $description_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
                             }
                         ?>
 

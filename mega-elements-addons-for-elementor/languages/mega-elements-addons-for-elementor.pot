@@ -2,9 +2,9 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.2\n"
+"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-14 08:03:31+00:00\n"
+"POT-Creation-Date: 2025-09-17 05:33:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,17 +57,18 @@ msgstr ""
 msgid "Mega Elements"
 msgstr ""
 
-#: includes/classes/class-dashboard.php:234
+#: includes/classes/class-dashboard.php:235
+#. translators: %s is the page title (e.g., "General", "Widgets", etc.)
 msgid "%s - Mega Elements Addons for Elementor"
 msgstr ""
 
-#: includes/classes/class-dashboard.php:268
+#: includes/classes/class-dashboard.php:269
 #: includes/widgets/meafe-tabs/tabs.php:193
 #: templates/admin/dashboard-main.php:12
 msgid "General"
 msgstr ""
 
-#: includes/classes/class-dashboard.php:272
+#: includes/classes/class-dashboard.php:273
 #: templates/admin/dashboard-main.php:13
 msgid "Widgets"
 msgstr ""
@@ -646,16 +647,16 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:121
 #: includes/widgets/meafe-blog/blog.php:650
 #: includes/widgets/meafe-blog/blog.php:717
-#: includes/widgets/meafe-bten/bten.php:471
-#: includes/widgets/meafe-bten/bten.php:510
-#: includes/widgets/meafe-bten/bten.php:697
-#: includes/widgets/meafe-bten/bten.php:728
+#: includes/widgets/meafe-bten/bten.php:472
+#: includes/widgets/meafe-bten/bten.php:511
+#: includes/widgets/meafe-bten/bten.php:698
+#: includes/widgets/meafe-bten/bten.php:729
 #: includes/widgets/meafe-button/button.php:319
 #: includes/widgets/meafe-button/button.php:437
-#: includes/widgets/meafe-cf7/cf7.php:292
-#: includes/widgets/meafe-cf7/cf7.php:331
-#: includes/widgets/meafe-cf7/cf7.php:507
-#: includes/widgets/meafe-cf7/cf7.php:538
+#: includes/widgets/meafe-cf7/cf7.php:293
+#: includes/widgets/meafe-cf7/cf7.php:332
+#: includes/widgets/meafe-cf7/cf7.php:508
+#: includes/widgets/meafe-cf7/cf7.php:539
 #: includes/widgets/meafe-countdown/countdown.php:265
 #: includes/widgets/meafe-counter/counter.php:408
 #: includes/widgets/meafe-cta/cta.php:596
@@ -735,14 +736,14 @@ msgstr ""
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:510
 #: includes/widgets/meafe-blog/blog.php:554
 #: includes/widgets/meafe-blog/blog.php:597
-#: includes/widgets/meafe-bten/bten.php:138
-#: includes/widgets/meafe-bten/bten.php:394
-#: includes/widgets/meafe-bten/bten.php:556
+#: includes/widgets/meafe-bten/bten.php:139
+#: includes/widgets/meafe-bten/bten.php:395
+#: includes/widgets/meafe-bten/bten.php:557
 #: includes/widgets/meafe-button/button.php:392
 #: includes/widgets/meafe-button/button.php:511
 #: includes/widgets/meafe-category/category.php:207
-#: includes/widgets/meafe-cf7/cf7.php:202
-#: includes/widgets/meafe-cf7/cf7.php:430
+#: includes/widgets/meafe-cf7/cf7.php:203
+#: includes/widgets/meafe-cf7/cf7.php:431
 #: includes/widgets/meafe-clients/clients.php:296
 #: includes/widgets/meafe-countdown/countdown.php:296
 #: includes/widgets/meafe-cta/cta.php:366
@@ -852,13 +853,13 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:671
 #: includes/widgets/meafe-blog/blog.php:864
 #: includes/widgets/meafe-blog/blog.php:1164
-#: includes/widgets/meafe-bten/bten.php:406
-#: includes/widgets/meafe-bten/bten.php:636
+#: includes/widgets/meafe-bten/bten.php:407
+#: includes/widgets/meafe-bten/bten.php:637
 #: includes/widgets/meafe-button/button.php:338
 #: includes/widgets/meafe-button/button.php:456
 #: includes/widgets/meafe-category/category.php:240
-#: includes/widgets/meafe-cf7/cf7.php:214
-#: includes/widgets/meafe-cf7/cf7.php:458
+#: includes/widgets/meafe-cf7/cf7.php:215
+#: includes/widgets/meafe-cf7/cf7.php:459
 #: includes/widgets/meafe-countdown/countdown.php:284
 #: includes/widgets/meafe-counter/counter.php:480
 #: includes/widgets/meafe-cta/cta.php:873
@@ -1042,11 +1043,11 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:955
 #: includes/widgets/meafe-blog/blog.php:1003
 #: includes/widgets/meafe-blog/blog.php:1055
-#: includes/widgets/meafe-bten/bten.php:275
-#: includes/widgets/meafe-bten/bten.php:427
+#: includes/widgets/meafe-bten/bten.php:276
+#: includes/widgets/meafe-bten/bten.php:428
 #: includes/widgets/meafe-category/category.php:334
-#: includes/widgets/meafe-cf7/cf7.php:235
-#: includes/widgets/meafe-cf7/cf7.php:386
+#: includes/widgets/meafe-cf7/cf7.php:236
+#: includes/widgets/meafe-cf7/cf7.php:387
 #: includes/widgets/meafe-cta/cta.php:760
 #: includes/widgets/meafe-cta/cta.php:928
 #: includes/widgets/meafe-events/events.php:297
@@ -1145,11 +1146,11 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:304
 #: includes/widgets/meafe-blog/blog.php:443
 #: includes/widgets/meafe-blog/blog.php:631
-#: includes/widgets/meafe-bten/bten.php:448
-#: includes/widgets/meafe-bten/bten.php:666
+#: includes/widgets/meafe-bten/bten.php:449
+#: includes/widgets/meafe-bten/bten.php:667
 #: includes/widgets/meafe-button/button.php:288
-#: includes/widgets/meafe-cf7/cf7.php:269
-#: includes/widgets/meafe-cf7/cf7.php:488
+#: includes/widgets/meafe-cf7/cf7.php:270
+#: includes/widgets/meafe-cf7/cf7.php:489
 #: includes/widgets/meafe-cta/cta.php:589
 #: includes/widgets/meafe-cta/cta.php:769
 #: includes/widgets/meafe-cta/cta.php:937
@@ -1194,16 +1195,16 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:505
 #: includes/widgets/meafe-blog/blog.php:638
 #: includes/widgets/meafe-blog/blog.php:705
-#: includes/widgets/meafe-bten/bten.php:175
-#: includes/widgets/meafe-bten/bten.php:435
-#: includes/widgets/meafe-bten/bten.php:673
-#: includes/widgets/meafe-bten/bten.php:717
+#: includes/widgets/meafe-bten/bten.php:176
+#: includes/widgets/meafe-bten/bten.php:436
+#: includes/widgets/meafe-bten/bten.php:674
+#: includes/widgets/meafe-bten/bten.php:718
 #: includes/widgets/meafe-button/button.php:295
 #: includes/widgets/meafe-button/button.php:413
-#: includes/widgets/meafe-cf7/cf7.php:243
-#: includes/widgets/meafe-cf7/cf7.php:394
-#: includes/widgets/meafe-cf7/cf7.php:495
-#: includes/widgets/meafe-cf7/cf7.php:527
+#: includes/widgets/meafe-cf7/cf7.php:244
+#: includes/widgets/meafe-cf7/cf7.php:395
+#: includes/widgets/meafe-cf7/cf7.php:496
+#: includes/widgets/meafe-cf7/cf7.php:528
 #: includes/widgets/meafe-checklist/checklist.php:355
 #: includes/widgets/meafe-cta/cta.php:776
 #: includes/widgets/meafe-cta/cta.php:818
@@ -1271,7 +1272,7 @@ msgstr ""
 #: includes/widgets/meafe-about/about.php:635
 #: includes/widgets/meafe-blog/blog.php:463
 #: includes/widgets/meafe-blog/blog.php:517
-#: includes/widgets/meafe-bten/bten.php:163
+#: includes/widgets/meafe-bten/bten.php:164
 #: includes/widgets/meafe-featurelist/featurelist.php:215
 #: includes/widgets/meafe-post-carousel/post-carousel.php:515
 #: includes/widgets/meafe-post-carousel/post-carousel.php:569
@@ -1284,9 +1285,9 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:343
 #: includes/widgets/meafe-blog/blog.php:498
 #: includes/widgets/meafe-blog/blog.php:698
-#: includes/widgets/meafe-bten/bten.php:710
+#: includes/widgets/meafe-bten/bten.php:711
 #: includes/widgets/meafe-button/button.php:406
-#: includes/widgets/meafe-cf7/cf7.php:520
+#: includes/widgets/meafe-cf7/cf7.php:521
 #: includes/widgets/meafe-checklist/checklist.php:309
 #: includes/widgets/meafe-checklist/checklist.php:367
 #: includes/widgets/meafe-checklist/checklist.php:431
@@ -1327,11 +1328,11 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:566
 #: includes/widgets/meafe-blog/blog.php:609
 #: includes/widgets/meafe-blog/blog.php:963
-#: includes/widgets/meafe-bten/bten.php:150
+#: includes/widgets/meafe-bten/bten.php:151
 #: includes/widgets/meafe-button/button.php:380
 #: includes/widgets/meafe-button/button.php:499
 #: includes/widgets/meafe-category/category.php:219
-#: includes/widgets/meafe-cf7/cf7.php:418
+#: includes/widgets/meafe-cf7/cf7.php:419
 #: includes/widgets/meafe-countdown/countdown.php:308
 #: includes/widgets/meafe-countdown/countdown.php:452
 #: includes/widgets/meafe-dualheading/dualheading.php:159
@@ -1477,7 +1478,7 @@ msgstr ""
 
 #: includes/widgets/meafe-accordion/accordion.php:207
 #: includes/widgets/meafe-blog/blog.php:797
-#: includes/widgets/meafe-bten/bten.php:130
+#: includes/widgets/meafe-bten/bten.php:131
 #: includes/widgets/meafe-button/button.php:258
 #: includes/widgets/meafe-category/category.php:184
 #: includes/widgets/meafe-checklist/checklist.php:139
@@ -1647,7 +1648,7 @@ msgid "CEO - Flores Group"
 msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:148
-#: includes/widgets/meafe-bten/bten.php:111
+#: includes/widgets/meafe-bten/bten.php:112
 #: includes/widgets/meafe-category/category.php:89
 #: includes/widgets/meafe-events/events.php:60
 #: includes/widgets/meafe-image-card/image-card.php:59
@@ -1665,7 +1666,7 @@ msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:153
 #: includes/widgets/meafe-blog/blog.php:211
-#: includes/widgets/meafe-bten/bten.php:116
+#: includes/widgets/meafe-bten/bten.php:117
 #: includes/widgets/meafe-category/category.php:93
 #: includes/widgets/meafe-events/events.php:65
 #: includes/widgets/meafe-image-card/image-card.php:64
@@ -1685,7 +1686,7 @@ msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:154
 #: includes/widgets/meafe-blog/blog.php:212
-#: includes/widgets/meafe-bten/bten.php:117
+#: includes/widgets/meafe-bten/bten.php:118
 #: includes/widgets/meafe-category/category.php:94
 #: includes/widgets/meafe-events/events.php:66
 #: includes/widgets/meafe-image-card/image-card.php:65
@@ -1826,10 +1827,10 @@ msgstr ""
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:611
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:790
 #: includes/widgets/meafe-blog/blog.php:1120
-#: includes/widgets/meafe-bten/bten.php:314
-#: includes/widgets/meafe-bten/bten.php:568
+#: includes/widgets/meafe-bten/bten.php:315
+#: includes/widgets/meafe-bten/bten.php:569
 #: includes/widgets/meafe-button/button.php:274
-#: includes/widgets/meafe-cf7/cf7.php:153
+#: includes/widgets/meafe-cf7/cf7.php:154
 #: includes/widgets/meafe-checklist/checklist.php:249
 #: includes/widgets/meafe-events/events.php:714
 #: includes/widgets/meafe-events/events.php:891
@@ -1857,8 +1858,8 @@ msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:632
 #: includes/widgets/meafe-blog/blog.php:1138
-#: includes/widgets/meafe-bten/bten.php:345
-#: includes/widgets/meafe-bten/bten.php:599
+#: includes/widgets/meafe-bten/bten.php:346
+#: includes/widgets/meafe-bten/bten.php:600
 #: includes/widgets/meafe-events/events.php:732
 #: includes/widgets/meafe-events/events.php:909
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1144
@@ -2208,9 +2209,9 @@ msgid "Load More Button Style"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:729
-#: includes/widgets/meafe-bten/bten.php:685
-#: includes/widgets/meafe-bten/bten.php:739
-#: includes/widgets/meafe-cf7/cf7.php:549
+#: includes/widgets/meafe-bten/bten.php:686
+#: includes/widgets/meafe-bten/bten.php:740
+#: includes/widgets/meafe-cf7/cf7.php:550
 #: includes/widgets/meafe-cta/cta.php:798
 #: includes/widgets/meafe-cta/cta.php:840
 #: includes/widgets/meafe-cta/cta.php:966
@@ -2321,65 +2322,66 @@ msgstr ""
 msgid "Missing Notice"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:79
-#: includes/widgets/meafe-cf7/cf7.php:98
+#: includes/widgets/meafe-bten/bten.php:80
+#: includes/widgets/meafe-cf7/cf7.php:99
+#. translators: %1$s is the plugin name with a link to install it
 msgid ""
 "Hello, looks like %1$s is missing in your site. Please click on the link "
 "below and install/activate %1$s. Make sure to refresh this page after "
 "installation or activation."
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:101
-#: includes/widgets/meafe-cf7/cf7.php:120
+#: includes/widgets/meafe-bten/bten.php:102
+#: includes/widgets/meafe-cf7/cf7.php:121
 msgid "Select Your Form"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:191
+#: includes/widgets/meafe-bten/bten.php:192
 msgid "Form Label Style"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:199
-#: includes/widgets/meafe-cf7/cf7.php:184
-#: includes/widgets/meafe-cf7/cf7.php:359
+#: includes/widgets/meafe-bten/bten.php:200
+#: includes/widgets/meafe-cf7/cf7.php:185
+#: includes/widgets/meafe-cf7/cf7.php:360
 msgid "Spacing Bottom"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:226
+#: includes/widgets/meafe-bten/bten.php:227
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:434
 #: includes/widgets/meafe-product-grid/product-grid.php:371
 msgid "Title Typography"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:235
+#: includes/widgets/meafe-bten/bten.php:236
 msgid "Description Typography"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:243
+#: includes/widgets/meafe-bten/bten.php:244
 msgid "Description Spacing"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:266
+#: includes/widgets/meafe-bten/bten.php:267
 msgid "GDPR Style"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:283
-#: includes/widgets/meafe-bten/bten.php:376
-#: includes/widgets/meafe-bten/bten.php:538
+#: includes/widgets/meafe-bten/bten.php:284
+#: includes/widgets/meafe-bten/bten.php:377
+#: includes/widgets/meafe-bten/bten.php:539
 msgid "Top Spacing"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:306
-#: includes/widgets/meafe-cf7/cf7.php:145
+#: includes/widgets/meafe-bten/bten.php:307
+#: includes/widgets/meafe-cf7/cf7.php:146
 msgid "Form Fields Style"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:484
-#: includes/widgets/meafe-cf7/cf7.php:305
+#: includes/widgets/meafe-bten/bten.php:485
+#: includes/widgets/meafe-cf7/cf7.php:306
 msgid "Focus"
 msgstr ""
 
-#: includes/widgets/meafe-bten/bten.php:530
-#: includes/widgets/meafe-cf7/cf7.php:410
+#: includes/widgets/meafe-bten/bten.php:531
+#: includes/widgets/meafe-cf7/cf7.php:411
 msgid "Submit Button Style"
 msgstr ""
 
@@ -2561,19 +2563,19 @@ msgstr ""
 msgid " Post(s)"
 msgstr ""
 
-#: includes/widgets/meafe-cf7/cf7.php:130
+#: includes/widgets/meafe-cf7/cf7.php:131
 msgid "HTML Class"
 msgstr ""
 
-#: includes/widgets/meafe-cf7/cf7.php:133
+#: includes/widgets/meafe-cf7/cf7.php:134
 msgid "Add \"break-column\" custom class to break the input fields."
 msgstr ""
 
-#: includes/widgets/meafe-cf7/cf7.php:254
+#: includes/widgets/meafe-cf7/cf7.php:255
 msgid "Placeholder Text Color"
 msgstr ""
 
-#: includes/widgets/meafe-cf7/cf7.php:351
+#: includes/widgets/meafe-cf7/cf7.php:352
 msgid "Form Fields Label Style"
 msgstr ""
 
@@ -4755,26 +4757,26 @@ msgstr ""
 msgid "Contain"
 msgstr ""
 
-#: plugin.php:101 plugin.php:135
+#: plugin.php:216 plugin.php:250
 #. translators: 1: Plugin name 2: PHP 3: Required PHP version
 #. translators: 1: Plugin name 2: Elementor 3: Required Elementor version
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: plugin.php:103
+#: plugin.php:218
 msgid "PHP"
 msgstr ""
 
-#: plugin.php:118
+#: plugin.php:233
 #. translators: 1: Plugin name 2: Elementor 3: Elementor installation link
 msgid "%1$s requires %2$s to be installed and activated to function properly. %3$s"
 msgstr ""
 
-#: plugin.php:120 plugin.php:137
+#: plugin.php:235 plugin.php:252
 msgid "Elementor"
 msgstr ""
 
-#: plugin.php:121
+#: plugin.php:236
 msgid "Please click on this link and install Elementor"
 msgstr ""
 

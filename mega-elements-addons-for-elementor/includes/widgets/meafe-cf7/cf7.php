@@ -95,6 +95,7 @@ class MEAFE_CF7 extends Widget_Base
                 [
                     'type'  => Controls_Manager::RAW_HTML,
                     'raw'   => sprintf(
+                        // translators: %1$s is the plugin name with a link to install it
                         __( 'Hello, looks like %1$s is missing in your site. Please click on the link below and install/activate %1$s. Make sure to refresh this page after installation or activation.', 'mega-elements-addons-for-elementor' ),
                         '<a href="'.esc_url( admin_url( 'plugin-install.php?s=Contact+Form+7&tab=search&type=term' ) )
                         .'" target="_blank" rel="noopener">Contact Form 7</a>'

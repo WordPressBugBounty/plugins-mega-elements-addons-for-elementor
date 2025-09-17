@@ -37,6 +37,121 @@ if( ! class_exists( 'Mega_Elements_Addons_For_Elementor' ) ) {
             add_action( 'elementor/frontend/after_register_scripts', array( $this, 'register_scripts' ), 10 );
             add_action( 'elementor/frontend/after_register_styles', array( $this, 'register_styles' ), 10 );
             add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ), 10 );
+
+            /**
+             * Elementor Save Action
+             * 
+             * @since 1.3.3
+             */
+              add_action( 'wp_ajax_elementor_ajax', array( $this, 'elementor_ajax_action' ), 2 );
+        }
+
+        
+        /**
+         * Elementor Ajax Action
+         * 
+         * @since 1.3.3
+         */
+        public function elementor_ajax_action() {
+
+            $actions = json_decode( wp_unslash( $_REQUEST['actions'] ?? '' ), true );
+
+            if ( empty( $actions ) ) {
+                return;
+            }
+
+            $sanitize_text_only = function( $v ) {
+                $v = wp_unslash( $v );
+                $v = wp_specialchars_decode( $v, ENT_QUOTES );
+                $v = preg_replace( '/```[a-z]*\s*|\s*```/i', '', $v );
+                return sanitize_text_field( $v );
+            };
+
+            $my_widgets = array(
+                'meafe-about' => true,
+                'meafe-accordion' => true,
+                'meafe-blockquote' => true,
+                'meafe-blog' => true,
+                'meafe-post-modules' => true,
+                'meafe-image-card' => true,
+                'meafe-timeline' => true,
+                'meafe-bten' => true,
+                'meafe-button' => true,
+                'meafe-category' => true,
+                'meafe-cf7' => true,
+                'meafe-checklist' => true,
+                'meafe-clients' => true,
+                'meafe-countdown' => true,
+                'meafe-counter' => true,
+                'meafe-cta' => true,
+                'meafe-dualheading' => true,
+                'meafe-featurelist' => true,
+                'meafe-services' => true,
+                'meafe-team' => true,
+                'meafe-testimonial' => true,
+                'meafe-testimonial-carousel' => true,
+                'meafe-advanced-testimonial' => true,
+                'meafe-post-carousel' => true,
+                'meafe-pricing-table' => true,
+                'meafe-team-carousel' => true,
+                'meafe-price-menu' => true,
+                'meafe-tabs' => true,
+                'meafe-events' => true,
+                'meafe-product-cat-tab' => true,
+                'meafe-product-cat-grid' => true,
+                'meafe-product-grid' => true,
+            );
+
+            foreach ( $actions as &$data ) {
+                $my_action = $data['action'] ?? '';
+
+                switch ( $my_action ) :
+                    case "render_widget":
+                        $my_element = &$data['data']['data'] ?? [];
+                        if ( isset( $my_widgets[ $my_element['widgetType'] ?? '' ] ) ) {
+                            $settings = &$data['data']['data']['settings'] ?? [];
+                            foreach ( $settings as $key => &$value ) {
+                                $last_5 = substr( $key, -5 );
+                                if ( $last_5 === '_text' || $last_5 === 'text_' ) {
+                                    $value = $sanitize_text_only( $value );
+                                }
+                            }
+                            unset( $value );
+                        }
+                        break;
+                    case "save_builder":
+                        $elements = &$data['data']['elements'] ?? '';
+
+                        if ( empty( $elements ) ) {
+                            return;
+                        }
+
+                        foreach ( $elements as &$element ) {
+                            $inner_elements = &$element['elements'] ?? '';
+                            if ( ! empty( $inner_elements ) ) {
+                                foreach ( $inner_elements as &$inner_element ) {
+                                    if ( is_array( $inner_element ) && isset( $my_widgets[ $inner_element['widgetType'] ?? '' ] ) ) {
+                                        $settings = &$inner_element['settings'] ?? '';
+                                        foreach ( $settings as $key => &$value ) {
+                                            $last_5 = substr( $key, -5 );
+                                            if ( $last_5 === '_text' || $last_5 === 'text_' ) {
+                                                $value = $sanitize_text_only( $value );
+                                            }
+                                        }
+                                        unset( $value );
+                                    }
+                                }
+                            }
+                        }
+
+                        break;
+
+                endswitch;
+
+            }
+
+            $_POST['actions'] = $_REQUEST['actions'] = wp_slash( wp_json_encode( $actions ) );
+
         }
 
         /**

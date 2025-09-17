@@ -1018,7 +1018,7 @@ class MEAFE_Events extends Widget_Base {
                                         } else {
                                             $icon_html_dt = '<i class="' . esc_attr( $item['becgs_events_selected_date_time_icon'] ) . '" aria-hidden="true"></i>';
                                         }
-                                        echo $icon_html_dt;
+                                        echo $icon_html_dt; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
                                     } ?>
                                     <?php echo esc_html(date('h:i  A', strtotime( $item['becgs_events_start_date_time'] ) )) . ' - ' . esc_html(date('h:i  A', strtotime( $item['becgs_events_end_date_time'] ) )); ?>
                                 </span>
@@ -1040,7 +1040,7 @@ class MEAFE_Events extends Widget_Base {
                                     } else {
                                         $icon_html_loc = '<i class="' . esc_attr( $item['becgs_events_selected_location_icon'] ) . '" aria-hidden="true"></i>';
                                     }
-                                    echo $icon_html_loc;
+                                    echo $icon_html_loc; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
                                 } ?>
                                 <span><?php echo esc_html( $item['becgs_events_location'] ); ?></span>
                             </div>
@@ -1079,7 +1079,7 @@ class MEAFE_Events extends Widget_Base {
                                     } else {
                                         $icon_html_readmore = '<i class="' . esc_attr( $item['becgs_events_selected_read_more_icon'] ) . '" aria-hidden="true"></i>';
                                     }
-                                    echo $icon_html_readmore;
+                                    echo $icon_html_readmore; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
                                 } ?>
                             </a>
                         </div>

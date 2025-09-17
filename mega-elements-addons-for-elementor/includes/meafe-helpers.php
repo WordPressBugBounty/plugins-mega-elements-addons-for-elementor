@@ -59,12 +59,12 @@ function meafe_get_fallback_svg( $post_thumbnail ) {
 */
 function meafe_add_category_image( $taxonomy ) { ?>
 	<div class="form-field term-group">
-		<label for="ba_category_image_id"><?php _e( 'Mega Elements - Addons for Elementor Image', 'mega-elements-addons-for-elementor' ); ?></label>
+		<label for="ba_category_image_id"><?php esc_html_e( 'Mega Elements - Addons for Elementor Image', 'mega-elements-addons-for-elementor' ); ?></label>
 		<input type="hidden" id="ba_category_image_id" name="ba_category_image_id" class="custom_media_url" value="">
 		<div id="category-image-wrapper"></div>
 		<p>
-			<input type="button" class="button button-secondary ba_tax_media_button" id="ba_tax_media_button" name="ba_tax_media_button" value="<?php _e( 'Add Image', 'mega-elements-addons-for-elementor' ); ?>" />
-			<input type="button" class="button button-secondary ba_tax_media_remove" id="ba_tax_media_remove" name="ba_tax_media_remove" value="<?php _e( 'Remove Image', 'mega-elements-addons-for-elementor' ); ?>" />
+			<input type="button" class="button button-secondary ba_tax_media_button" id="ba_tax_media_button" name="ba_tax_media_button" value="<?php esc_html_e( 'Add Image', 'mega-elements-addons-for-elementor' ); ?>" />
+			<input type="button" class="button button-secondary ba_tax_media_remove" id="ba_tax_media_remove" name="ba_tax_media_remove" value="<?php esc_html_e( 'Remove Image', 'mega-elements-addons-for-elementor' ); ?>" />
 		</p>
 	</div>
 <?php
@@ -88,7 +88,7 @@ function meafe_save_category_image( $term_id ) {
 function meafe_update_category_image( $term, $taxonomy='' ) { ?>
 	<tr class="form-field term-group-wrap">
 		<th scope="row">
-			<label for="ba_category_image_id"><?php _e( 'Mega Elements Addons For Elementor Image', 'mega-elements-addons-for-elementor' ); ?></label>
+			<label for="ba_category_image_id"><?php esc_html_e( 'Mega Elements Addons For Elementor Image', 'mega-elements-addons-for-elementor' ); ?></label>
 		</th>
 		<td>
 			<?php $image_id = get_term_meta ( $term->term_id, 'ba_category_image_id', true ); ?>
@@ -99,8 +99,8 @@ function meafe_update_category_image( $term, $taxonomy='' ) { ?>
 				<?php } ?>
 			</div>
 			<p>
-				<input type="button" class="button button-secondary ba_tax_media_button" id="ba_tax_media_button" name="ba_tax_media_button" value="<?php _e( 'Add Image', 'mega-elements-addons-for-elementor' ); ?>" />
-				<input type="button" class="button button-secondary ba_tax_media_remove" id="ba_tax_media_remove" name="ba_tax_media_remove" value="<?php _e( 'Remove Image', 'mega-elements-addons-for-elementor' ); ?>" />
+				<input type="button" class="button button-secondary ba_tax_media_button" id="ba_tax_media_button" name="ba_tax_media_button" value="<?php esc_html_e( 'Add Image', 'mega-elements-addons-for-elementor' ); ?>" />
+				<input type="button" class="button button-secondary ba_tax_media_remove" id="ba_tax_media_remove" name="ba_tax_media_remove" value="<?php esc_html_e( 'Remove Image', 'mega-elements-addons-for-elementor' ); ?>" />
 			</p>
 		</td>
 	</tr>

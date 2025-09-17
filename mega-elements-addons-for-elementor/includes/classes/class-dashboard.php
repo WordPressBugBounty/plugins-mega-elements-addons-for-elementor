@@ -41,7 +41,7 @@ class Dashboard {
      * @return boolean
      */
     public static function is_page() {
-        return ( isset( $_GET['page'] ) && ( $_GET['page'] === self::PAGE_SLUG ) );
+        return ( $_GET['page'] ?? '' ) === self::PAGE_SLUG; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
     }
 
     /**
@@ -90,7 +90,7 @@ class Dashboard {
             wp_send_json_error();
         }
 
-        $posted_data    = ! empty( $_POST['data'] ) ? $_POST['data'] : array();
+        $posted_data    = ! empty( $_POST['data'] ) ? $_POST['data'] : array(); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
         $sanitized_data = array_map( 'sanitize_title', $posted_data );
         
         do_action( 'ewfe_save_dashboard_data', $sanitized_data );
@@ -231,6 +231,7 @@ class Dashboard {
 
                 add_submenu_page(
                     self::PAGE_SLUG,
+                    // translators: %s is the page title (e.g., "General", "Widgets", etc.)
                     sprintf( __( '%s - Mega Elements Addons for Elementor', 'mega-elements-addons-for-elementor' ), esc_html( $data['title'] ) ),
                     $data['title'],
                     'manage_options',

@@ -58,7 +58,7 @@ var MEAFECountDownHandler = function ($scope, $) {
                 var editMode = $("body").find("#elementor").length;
                 if (editMode > 0) {
                     $(this).find(".meafe-countdown-init").html(
-                        "<h1>You can not redirect url from elementor Editor!!</h1>");
+                      "You can not redirect url from elementor Editor!!");
                 } else {
                     window.location.href = countDownSettings["text"];
                 }

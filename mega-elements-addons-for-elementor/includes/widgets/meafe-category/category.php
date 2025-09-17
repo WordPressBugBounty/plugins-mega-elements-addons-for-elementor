@@ -190,7 +190,7 @@ class MEAFE_Category extends Widget_Base
             Group_Control_Background::get_type(),
             [
                 'name'      => 'bcsgs_category_bg_color',
-                'label'     => __( 'Post Background Color', 'mega-elements-addons-for-elementor' ),
+                'label'     => esc_html__( 'Post Background Color', 'mega-elements-addons-for-elementor' ),
                 'types'     => ['gradient'],
                 'selectors' => [
                     '{{WRAPPER}} .meafe-categories-wrap .title-wrapper' => 'background: {{VALUE}}',
@@ -399,9 +399,9 @@ class MEAFE_Category extends Widget_Base
                     $url1 = wp_get_attachment_image_url( $img[0], $ccw_img_size );
 
                     echo '<li class="category-fallback-image">';
-                    echo '<a '.$target.' href="'. esc_url( get_category_link( $value ) ) .'"><img src="' . esc_url( $url1 ) . '" alt="'. esc_attr( get_cat_name( $value ) ) .'"><div class="title-wrapper"><span class="meafe-entry-title">'.esc_html( get_cat_name( $value ) ).'</span>';
+                    echo '<a '.esc_attr( $target).' href="'. esc_url( get_category_link( $value ) ) .'"><img src="' . esc_url( $url1 ) . '" alt="'. esc_attr( get_cat_name( $value ) ) .'"><div class="title-wrapper"><span class="meafe-entry-title">'.esc_html( get_cat_name( $value ) ).'</span>';
                     if( $settings['bccls_category_show_meta'] && $count > 0 ) {
-                        echo '<span class="meafe-entry-meta">'.esc_html( $count ).__(' Post(s)','mega-elements-addons-for-elementor').'</span>';
+                        echo '<span class="meafe-entry-meta">'.esc_html( $count ). esc_html__(' Post(s)','mega-elements-addons-for-elementor').'</span>';
                     }
 
                     echo '</div></a></li>';
@@ -414,9 +414,9 @@ class MEAFE_Category extends Widget_Base
                         $url1 = ("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 ".$image_size['width']." ".$image_size['height']."' preserveAspectRatio='none'><rect width='".$image_size['width']."' height='".$image_size['height']."' style='".$svg_fill."'></rect></svg>");
                     }
                     echo '<li class="category-fallback-svg">';
-                    echo '<a '.$target.' href="'. esc_url( get_category_link( $value ) ) .'">' . $url1 . '<div class="title-wrapper"><span class="meafe-entry-title">'.esc_html( get_cat_name( $value ) ).'</span>';
+                    echo '<a '.esc_attr( $target).' href="'. esc_url( get_category_link( $value ) ) .'">' . $url1 . '<div class="title-wrapper"><span class="meafe-entry-title">'.esc_html( get_cat_name( $value ) ).'</span>';
                     if( $settings['bccls_category_show_meta'] && $count > 0 ) {
-                        echo '<span class="meafe-entry-meta">'.esc_html( $count ).__(' Post(s)','mega-elements-addons-for-elementor').'</span>';
+                        echo '<span class="meafe-entry-meta">'.esc_html( $count ). esc_html__(' Post(s)','mega-elements-addons-for-elementor').'</span>';
                     }
                     echo '</div></a></li>';
                 }

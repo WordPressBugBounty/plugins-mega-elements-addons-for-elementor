@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor widgets, mega elements, elements
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -69,9 +69,14 @@ If you have any questions or face any issues, reach out to our [support team](ht
 
 == Changelog ==
 
+=1.3.3=
+Released on: 2025-09-12
+* Security: Patched XSS vulnerability affecting Widgets.
+* Fixed: Resolved plugin compatibility check issues to ensure smoother operation.
+
 =1.3.2=
 Released on: 2025-07-14
-* Fix:  Resolved fatal warning when the Rolling Time field was left empty in the Counter section.
+* Fix: Resolved fatal warning when the Rolling Time field was left empty in the Counter section.
 
 =1.3.1=
 Released on: 2025-02-19
