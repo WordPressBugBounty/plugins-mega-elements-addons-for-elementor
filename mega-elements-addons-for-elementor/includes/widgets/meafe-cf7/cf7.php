@@ -497,7 +497,7 @@ class MEAFE_CF7 extends Widget_Base
                 'type'      => Controls_Manager::COLOR,
                 'default'   => '',
                 'selectors' => [
-                    '{{WRAPPER}} .wpcf7-submit' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .wpcf7-submit' => 'color: {{VALUE}} !important',
                 ],
             ]
         );
@@ -528,7 +528,7 @@ class MEAFE_CF7 extends Widget_Base
                 'label'     => esc_html__( 'Text Color', 'mega-elements-addons-for-elementor' ),
                 'type'      => Controls_Manager::COLOR,
                 'selectors' => [
-                    '{{WRAPPER}} .wpcf7-submit:hover, {{WRAPPER}} .wpcf7-submit:focus' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .wpcf7-submit:hover, {{WRAPPER}} .wpcf7-submit:focus' => 'color: {{VALUE}} !important',
                 ],
             ]
         );

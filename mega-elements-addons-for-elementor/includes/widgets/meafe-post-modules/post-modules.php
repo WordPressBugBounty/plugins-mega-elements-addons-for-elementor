@@ -8,6 +8,7 @@ if (!defined('ABSPATH')) {
 
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Border;
+use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Typography;
 use Elementor\Widget_Base;
 
@@ -505,12 +506,96 @@ class MEAFE_Post_Modules extends Widget_Base
             ]
         );
 
+        /**
+         * Content Style layout 5
+         */
+        
+        $this->add_control(
+            'PM_content_style',
+            [
+                'label'     => esc_html__( 'Content Style', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::HEADING,
+                'separator' => 'after',
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ],
+            ]
+        );
+
+        $this->add_control(
+            'PM_content_background_color',
+            [
+                'label'     => esc_html__( 'Background Color', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::COLOR,
+                'default'   => '',
+                'selectors' => [
+                    '{{WRAPPER}} .items-right .meafe-post-modules-card' => '--content-background-color: {{VALUE}}',
+                ],
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ],
+            ]
+        );
+
+        $this->add_group_control(
+            Group_Control_Border::get_type(),
+            [
+                'name'      => 'PM_content_border',
+                'selector'  => '{{WRAPPER}} .items-right .meafe-post-modules-card',
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ]
+            ]
+        );
+        
+        $this->add_responsive_control(
+            'PM_content_padding',
+            [
+                'label'     => esc_html__( 'Padding', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', '%' ],
+                'selectors' => [
+                    '{{WRAPPER}} .items-right .meafe-post-modules-card' => '--content-padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}}',
+                ],
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ],
+            ]
+        );
+
+        $this->add_responsive_control(
+            'PM_content_border_radius',
+            [
+                'label'     => esc_html__( 'Border Radius', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', '%' ],
+                'selectors' => [
+                    '{{WRAPPER}} .items-right .meafe-post-modules-card' => '--content-border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}}',
+                ],
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ],
+            ]
+        );
+
+        $this->add_group_control(
+            Group_Control_Box_Shadow::get_type(),
+            [
+                'name'      => 'PM_content_box_shadow',
+                'selector'  => '{{WRAPPER}} .items-right .meafe-post-modules-card',
+                'condition' => [
+                    'PM_layout_mode' => '5',
+                ],
+                'separator' => 'after',
+            ]
+        );
+
         $this->add_control(
             'PM_title_style',
             [
                 'label'     => esc_html__( 'Title Style', 'mega-elements-addons-for-elementor' ),
                 'type'      => Controls_Manager::HEADING,
-                'separator' => 'before',
+                'separator' => 'after',
             ]
         );
 

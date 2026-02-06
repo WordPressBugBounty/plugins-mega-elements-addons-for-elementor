@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor widgets, mega elements, elements
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -68,6 +68,10 @@ If you have any questions or face any issues, reach out to our [support team](ht
 == Images ==
 
 == Changelog ==
+
+=1.3.4=
+Released on: 2025-11-05
+* Fixed: Design issues fixed in Post Module, Dual Heading, Testimonial Carousel and CF7 widgets.
 
 =1.3.3=
 Released on: 2025-09-12

@@ -2,9 +2,9 @@
 # This file is distributed under the GPL v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.3\n"
+"Project-Id-Version: Mega Elements - Addons for Elementor 1.3.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 05:33:26+00:00\n"
+"POT-Creation-Date: 2025-11-05 04:01:59+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +95,7 @@ msgid "Blog"
 msgstr ""
 
 #: includes/classes/class-widgets-manager.php:79
-#: includes/widgets/meafe-post-modules/post-modules.php:22
+#: includes/widgets/meafe-post-modules/post-modules.php:23
 msgid "Post Modules"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:101
 #: includes/widgets/meafe-category/category.php:51
 #: includes/widgets/meafe-post-carousel/post-carousel.php:104
-#: includes/widgets/meafe-post-modules/post-modules.php:98
+#: includes/widgets/meafe-post-modules/post-modules.php:99
 msgid "Query Settings"
 msgstr ""
 
@@ -286,7 +286,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:200
 #: includes/widgets/meafe-category/category.php:82
 #: includes/widgets/meafe-post-carousel/post-carousel.php:203
-#: includes/widgets/meafe-post-modules/post-modules.php:188
+#: includes/widgets/meafe-post-modules/post-modules.php:189
 msgid "Layout Settings"
 msgstr ""
 
@@ -338,11 +338,11 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:431
 #: includes/widgets/meafe-post-carousel/post-carousel.php:443
 #: includes/widgets/meafe-post-carousel/post-carousel.php:455
-#: includes/widgets/meafe-post-modules/post-modules.php:251
-#: includes/widgets/meafe-post-modules/post-modules.php:263
-#: includes/widgets/meafe-post-modules/post-modules.php:275
-#: includes/widgets/meafe-post-modules/post-modules.php:287
-#: includes/widgets/meafe-post-modules/post-modules.php:299
+#: includes/widgets/meafe-post-modules/post-modules.php:252
+#: includes/widgets/meafe-post-modules/post-modules.php:264
+#: includes/widgets/meafe-post-modules/post-modules.php:276
+#: includes/widgets/meafe-post-modules/post-modules.php:288
+#: includes/widgets/meafe-post-modules/post-modules.php:300
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:89
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:101
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:113
@@ -424,11 +424,11 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:432
 #: includes/widgets/meafe-post-carousel/post-carousel.php:444
 #: includes/widgets/meafe-post-carousel/post-carousel.php:456
-#: includes/widgets/meafe-post-modules/post-modules.php:252
-#: includes/widgets/meafe-post-modules/post-modules.php:264
-#: includes/widgets/meafe-post-modules/post-modules.php:276
-#: includes/widgets/meafe-post-modules/post-modules.php:288
-#: includes/widgets/meafe-post-modules/post-modules.php:300
+#: includes/widgets/meafe-post-modules/post-modules.php:253
+#: includes/widgets/meafe-post-modules/post-modules.php:265
+#: includes/widgets/meafe-post-modules/post-modules.php:277
+#: includes/widgets/meafe-post-modules/post-modules.php:289
+#: includes/widgets/meafe-post-modules/post-modules.php:301
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:90
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:102
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:114
@@ -492,7 +492,7 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:809
 #: includes/widgets/meafe-post-carousel/post-carousel.php:945
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1402
-#: includes/widgets/meafe-post-modules/post-modules.php:230
+#: includes/widgets/meafe-post-modules/post-modules.php:231
 #: includes/widgets/meafe-pricing-table/pricing-table.php:553
 #: includes/widgets/meafe-pricing-table/pricing-table.php:786
 #: includes/widgets/meafe-pricing-table/pricing-table.php:891
@@ -511,7 +511,7 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1207
 #: includes/widgets/meafe-testimonial/testimonial.php:80
 #: includes/widgets/meafe-testimonial/testimonial.php:499
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1008
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1146
 #: includes/widgets/meafe-timeline/timeline.php:1170
 msgid "Left"
 msgstr ""
@@ -535,7 +535,7 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:817
 #: includes/widgets/meafe-post-carousel/post-carousel.php:953
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1410
-#: includes/widgets/meafe-post-modules/post-modules.php:234
+#: includes/widgets/meafe-post-modules/post-modules.php:235
 #: includes/widgets/meafe-pricing-table/pricing-table.php:554
 #: includes/widgets/meafe-pricing-table/pricing-table.php:794
 #: includes/widgets/meafe-pricing-table/pricing-table.php:899
@@ -554,7 +554,7 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1215
 #: includes/widgets/meafe-testimonial/testimonial.php:88
 #: includes/widgets/meafe-testimonial/testimonial.php:500
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1016
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1154
 #: includes/widgets/meafe-timeline/timeline.php:1178
 msgid "Right"
 msgstr ""
@@ -562,7 +562,7 @@ msgstr ""
 #: includes/widgets/meafe-about/about.php:140
 #: includes/widgets/meafe-blog/blog.php:283
 #: includes/widgets/meafe-post-carousel/post-carousel.php:338
-#: includes/widgets/meafe-post-modules/post-modules.php:249
+#: includes/widgets/meafe-post-modules/post-modules.php:250
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:141
 #: includes/widgets/meafe-product-grid/product-grid.php:90
 msgid "Show Title"
@@ -631,10 +631,13 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:175
 #: includes/widgets/meafe-cta/cta.php:477
 #: includes/widgets/meafe-featurelist/featurelist.php:488
+#: includes/widgets/meafe-post-modules/post-modules.php:516
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:389
 #: includes/widgets/meafe-services/services.php:594
 #: includes/widgets/meafe-team/team.php:415
 #: includes/widgets/meafe-team-carousel/team-carousel.php:547
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:411
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:437
 msgid "Content Style"
 msgstr ""
 
@@ -679,7 +682,8 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:769
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1295
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1353
-#: includes/widgets/meafe-post-modules/post-modules.php:720
+#: includes/widgets/meafe-post-modules/post-modules.php:528
+#: includes/widgets/meafe-post-modules/post-modules.php:805
 #: includes/widgets/meafe-price-menu/price-menu.php:302
 #: includes/widgets/meafe-price-menu/price-menu.php:563
 #: includes/widgets/meafe-price-menu/price-menu.php:737
@@ -714,10 +718,12 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1166
 #: includes/widgets/meafe-testimonial/testimonial.php:342
 #: includes/widgets/meafe-testimonial/testimonial.php:427
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:454
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:539
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:936
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:967
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:457
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:509
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:591
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:676
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1074
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1105
 #: includes/widgets/meafe-timeline/timeline.php:471
 #: includes/widgets/meafe-timeline/timeline.php:548
 #: includes/widgets/meafe-timeline/timeline.php:628
@@ -760,8 +766,9 @@ msgstr ""
 #: includes/widgets/meafe-image-card/image-card.php:338
 #: includes/widgets/meafe-post-carousel/post-carousel.php:606
 #: includes/widgets/meafe-post-carousel/post-carousel.php:649
-#: includes/widgets/meafe-post-modules/post-modules.php:368
-#: includes/widgets/meafe-post-modules/post-modules.php:731
+#: includes/widgets/meafe-post-modules/post-modules.php:369
+#: includes/widgets/meafe-post-modules/post-modules.php:554
+#: includes/widgets/meafe-post-modules/post-modules.php:816
 #: includes/widgets/meafe-price-menu/price-menu.php:333
 #: includes/widgets/meafe-price-menu/price-menu.php:611
 #: includes/widgets/meafe-pricing-table/pricing-table.php:952
@@ -787,8 +794,9 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:488
 #: includes/widgets/meafe-testimonial/testimonial.php:307
 #: includes/widgets/meafe-testimonial/testimonial.php:392
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:419
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:504
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:422
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:556
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:641
 #: includes/widgets/meafe-timeline/timeline.php:435
 #: includes/widgets/meafe-timeline/timeline.php:512
 #: includes/widgets/meafe-timeline/timeline.php:583
@@ -816,7 +824,7 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:582
 #: includes/widgets/meafe-post-carousel/post-carousel.php:715
 #: includes/widgets/meafe-post-carousel/post-carousel.php:914
-#: includes/widgets/meafe-post-modules/post-modules.php:387
+#: includes/widgets/meafe-post-modules/post-modules.php:388
 #: includes/widgets/meafe-price-menu/price-menu.php:346
 #: includes/widgets/meafe-price-menu/price-menu.php:624
 #: includes/widgets/meafe-price-menu/price-menu.php:749
@@ -880,9 +888,10 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:922
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1171
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1235
-#: includes/widgets/meafe-post-modules/post-modules.php:659
-#: includes/widgets/meafe-post-modules/post-modules.php:693
-#: includes/widgets/meafe-post-modules/post-modules.php:743
+#: includes/widgets/meafe-post-modules/post-modules.php:569
+#: includes/widgets/meafe-post-modules/post-modules.php:744
+#: includes/widgets/meafe-post-modules/post-modules.php:778
+#: includes/widgets/meafe-post-modules/post-modules.php:828
 #: includes/widgets/meafe-price-menu/price-menu.php:356
 #: includes/widgets/meafe-price-menu/price-menu.php:634
 #: includes/widgets/meafe-price-menu/price-menu.php:759
@@ -912,10 +921,12 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:363
 #: includes/widgets/meafe-testimonial/testimonial.php:448
 #: includes/widgets/meafe-testimonial/testimonial.php:567
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:475
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:560
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:637
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:903
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:482
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:531
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:612
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:697
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:774
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1041
 #: includes/widgets/meafe-timeline/timeline.php:986
 #: includes/widgets/meafe-timeline/timeline.php:1059
 msgid "Border Radius"
@@ -958,7 +969,7 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:404
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1211
 #: includes/widgets/meafe-testimonial/testimonial.php:84
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1012
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1150
 #: includes/widgets/meafe-timeline/timeline.php:1174
 msgid "Center"
 msgstr ""
@@ -973,7 +984,7 @@ msgstr ""
 #: includes/widgets/meafe-category/category.php:264
 #: includes/widgets/meafe-dualheading/dualheading.php:205
 #: includes/widgets/meafe-post-carousel/post-carousel.php:969
-#: includes/widgets/meafe-post-modules/post-modules.php:503
+#: includes/widgets/meafe-post-modules/post-modules.php:504
 msgid "Color & Typography"
 msgstr ""
 
@@ -1006,9 +1017,9 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1088
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1449
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1486
-#: includes/widgets/meafe-post-modules/post-modules.php:475
-#: includes/widgets/meafe-post-modules/post-modules.php:521
-#: includes/widgets/meafe-post-modules/post-modules.php:577
+#: includes/widgets/meafe-post-modules/post-modules.php:476
+#: includes/widgets/meafe-post-modules/post-modules.php:606
+#: includes/widgets/meafe-post-modules/post-modules.php:662
 #: includes/widgets/meafe-price-menu/price-menu.php:390
 #: includes/widgets/meafe-price-menu/price-menu.php:440
 #: includes/widgets/meafe-price-menu/price-menu.php:501
@@ -1025,9 +1036,9 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1249
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1269
 #: includes/widgets/meafe-testimonial/testimonial.php:767
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:838
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1050
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1070
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:975
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1188
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1208
 #: includes/widgets/meafe-timeline/timeline.php:1217
 #: includes/widgets/meafe-timeline/timeline.php:1237
 msgid "Color"
@@ -1058,10 +1069,10 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1013
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1055
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1101
-#: includes/widgets/meafe-post-modules/post-modules.php:446
-#: includes/widgets/meafe-post-modules/post-modules.php:489
-#: includes/widgets/meafe-post-modules/post-modules.php:548
-#: includes/widgets/meafe-post-modules/post-modules.php:591
+#: includes/widgets/meafe-post-modules/post-modules.php:447
+#: includes/widgets/meafe-post-modules/post-modules.php:490
+#: includes/widgets/meafe-post-modules/post-modules.php:633
+#: includes/widgets/meafe-post-modules/post-modules.php:676
 #: includes/widgets/meafe-price-menu/price-menu.php:403
 #: includes/widgets/meafe-price-menu/price-menu.php:453
 #: includes/widgets/meafe-price-menu/price-menu.php:514
@@ -1081,10 +1092,10 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:440
 #: includes/widgets/meafe-testimonial/testimonial.php:620
 #: includes/widgets/meafe-testimonial/testimonial.php:661
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:467
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:552
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:691
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:732
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:604
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:689
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:828
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:869
 #: includes/widgets/meafe-timeline/timeline.php:484
 #: includes/widgets/meafe-timeline/timeline.php:561
 #: includes/widgets/meafe-timeline/timeline.php:644
@@ -1110,8 +1121,8 @@ msgstr ""
 #: includes/widgets/meafe-pricing-table/pricing-table.php:2261
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1190
 #: includes/widgets/meafe-testimonial/testimonial.php:749
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:820
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:991
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:957
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1129
 #: includes/widgets/meafe-timeline/timeline.php:1149
 msgid "Spacing"
 msgstr ""
@@ -1122,7 +1133,7 @@ msgstr ""
 #: includes/widgets/meafe-counter/counter.php:231
 #: includes/widgets/meafe-dualheading/dualheading.php:213
 #: includes/widgets/meafe-post-carousel/post-carousel.php:977
-#: includes/widgets/meafe-post-modules/post-modules.php:511
+#: includes/widgets/meafe-post-modules/post-modules.php:596
 #: includes/widgets/meafe-services/services.php:533
 msgid "Title Style"
 msgstr ""
@@ -1171,8 +1182,9 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:952
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1116
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1230
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:917
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1031
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:447
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1055
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1169
 #: includes/widgets/meafe-timeline/timeline.php:1073
 #: includes/widgets/meafe-timeline/timeline.php:1194
 msgid "Normal"
@@ -1255,13 +1267,13 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:608
 #: includes/widgets/meafe-testimonial/testimonial.php:649
 #: includes/widgets/meafe-testimonial/testimonial.php:682
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:443
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:528
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:679
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:720
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:753
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:924
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:956
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:580
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:665
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:816
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:857
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:890
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1062
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1094
 #: includes/widgets/meafe-timeline/timeline.php:703
 #: includes/widgets/meafe-timeline/timeline.php:1080
 #: includes/widgets/meafe-timeline/timeline.php:1111
@@ -1316,7 +1328,8 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:830
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1010
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1148
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:949
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:499
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1087
 #: includes/widgets/meafe-timeline/timeline.php:1104
 msgid "Hover"
 msgstr ""
@@ -1340,8 +1353,8 @@ msgstr ""
 #: includes/widgets/meafe-post-carousel/post-carousel.php:618
 #: includes/widgets/meafe-post-carousel/post-carousel.php:661
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1021
-#: includes/widgets/meafe-post-modules/post-modules.php:454
-#: includes/widgets/meafe-post-modules/post-modules.php:556
+#: includes/widgets/meafe-post-modules/post-modules.php:455
+#: includes/widgets/meafe-post-modules/post-modules.php:641
 #: includes/widgets/meafe-price-menu/price-menu.php:599
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1060
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1305
@@ -1355,7 +1368,7 @@ msgstr ""
 #: includes/widgets/meafe-about/about.php:752
 #: includes/widgets/meafe-blog/blog.php:1337
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1756
-#: includes/widgets/meafe-post-modules/post-modules.php:888
+#: includes/widgets/meafe-post-modules/post-modules.php:973
 msgid "No posts found!"
 msgstr ""
 
@@ -1488,7 +1501,7 @@ msgstr ""
 #: includes/widgets/meafe-featurelist/featurelist.php:261
 #: includes/widgets/meafe-image-card/image-card.php:179
 #: includes/widgets/meafe-post-carousel/post-carousel.php:849
-#: includes/widgets/meafe-post-modules/post-modules.php:327
+#: includes/widgets/meafe-post-modules/post-modules.php:328
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:178
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:316
 #: includes/widgets/meafe-product-grid/product-grid.php:258
@@ -1552,7 +1565,7 @@ msgstr ""
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:1150
 #: includes/widgets/meafe-tabs/tabs.php:470
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1262
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1063
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1201
 #: includes/widgets/meafe-timeline/timeline.php:1230
 msgid "Active"
 msgstr ""
@@ -1580,7 +1593,7 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:121
 #: includes/widgets/meafe-testimonial/testimonial.php:299
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:76
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:411
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:548
 msgid "Testimonial Title"
 msgstr ""
 
@@ -1596,7 +1609,7 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:134
 #: includes/widgets/meafe-testimonial/testimonial.php:384
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:86
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:496
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:633
 msgid "Testimonial Content"
 msgstr ""
 
@@ -1621,7 +1634,7 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:147
 #: includes/widgets/meafe-testimonial/testimonial.php:600
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:96
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:671
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:808
 msgid "Name"
 msgstr ""
 
@@ -1671,7 +1684,7 @@ msgstr ""
 #: includes/widgets/meafe-events/events.php:65
 #: includes/widgets/meafe-image-card/image-card.php:64
 #: includes/widgets/meafe-post-carousel/post-carousel.php:214
-#: includes/widgets/meafe-post-modules/post-modules.php:199
+#: includes/widgets/meafe-post-modules/post-modules.php:200
 #: includes/widgets/meafe-pricing-table/pricing-table.php:102
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:65
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:64
@@ -1691,7 +1704,7 @@ msgstr ""
 #: includes/widgets/meafe-events/events.php:66
 #: includes/widgets/meafe-image-card/image-card.php:65
 #: includes/widgets/meafe-post-carousel/post-carousel.php:215
-#: includes/widgets/meafe-post-modules/post-modules.php:200
+#: includes/widgets/meafe-post-modules/post-modules.php:201
 #: includes/widgets/meafe-pricing-table/pricing-table.php:103
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:66
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:65
@@ -1761,7 +1774,7 @@ msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:283
 #: includes/widgets/meafe-cta/cta.php:253
-#: includes/widgets/meafe-post-modules/post-modules.php:709
+#: includes/widgets/meafe-post-modules/post-modules.php:794
 msgid "Box Style"
 msgstr ""
 
@@ -1804,9 +1817,9 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:319
 #: includes/widgets/meafe-testimonial/testimonial.php:404
 #: includes/widgets/meafe-testimonial/testimonial.php:628
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:431
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:516
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:699
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:568
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:653
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:836
 #: includes/widgets/meafe-timeline/timeline.php:447
 #: includes/widgets/meafe-timeline/timeline.php:524
 #: includes/widgets/meafe-timeline/timeline.php:598
@@ -1819,7 +1832,7 @@ msgstr ""
 #: includes/widgets/meafe-team/team.php:295
 #: includes/widgets/meafe-team-carousel/team-carousel.php:428
 #: includes/widgets/meafe-testimonial/testimonial.php:515
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:585
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:722
 #: includes/widgets/meafe-timeline/timeline.php:907
 msgid "Image Style"
 msgstr ""
@@ -1836,7 +1849,7 @@ msgstr ""
 #: includes/widgets/meafe-events/events.php:891
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1125
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1219
-#: includes/widgets/meafe-post-modules/post-modules.php:615
+#: includes/widgets/meafe-post-modules/post-modules.php:700
 #: includes/widgets/meafe-price-menu/price-menu.php:575
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1003
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1281
@@ -1849,8 +1862,8 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:858
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1082
 #: includes/widgets/meafe-testimonial/testimonial.php:523
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:593
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:883
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:730
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1021
 #: includes/widgets/meafe-timeline/timeline.php:918
 #: includes/widgets/meafe-timeline/timeline.php:1039
 msgid "Width"
@@ -1863,7 +1876,7 @@ msgstr ""
 #: includes/widgets/meafe-events/events.php:732
 #: includes/widgets/meafe-events/events.php:909
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1144
-#: includes/widgets/meafe-post-modules/post-modules.php:633
+#: includes/widgets/meafe-post-modules/post-modules.php:718
 #: includes/widgets/meafe-team/team.php:325
 #: includes/widgets/meafe-team/team.php:643
 #: includes/widgets/meafe-team/team.php:736
@@ -1871,14 +1884,14 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:786
 #: includes/widgets/meafe-team-carousel/team-carousel.php:879
 #: includes/widgets/meafe-testimonial/testimonial.php:541
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:611
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:748
 #: includes/widgets/meafe-timeline/timeline.php:939
 msgid "Height"
 msgstr ""
 
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:687
 #: includes/widgets/meafe-testimonial/testimonial.php:592
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:663
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:800
 msgid "Reviewer Style"
 msgstr ""
 
@@ -1891,7 +1904,7 @@ msgstr ""
 #: includes/widgets/meafe-featurelist/featurelist.php:106
 #: includes/widgets/meafe-featurelist/featurelist.php:108
 #: includes/widgets/meafe-featurelist/featurelist.php:496
-#: includes/widgets/meafe-post-modules/post-modules.php:419
+#: includes/widgets/meafe-post-modules/post-modules.php:420
 #: includes/widgets/meafe-price-menu/price-menu.php:63
 #: includes/widgets/meafe-price-menu/price-menu.php:69
 #: includes/widgets/meafe-price-menu/price-menu.php:70
@@ -1904,8 +1917,8 @@ msgstr ""
 #: includes/widgets/meafe-testimonial/testimonial.php:640
 #: includes/widgets/meafe-testimonial/testimonial.php:671
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:382
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:711
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:742
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:848
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:879
 #: includes/widgets/meafe-timeline/timeline.php:210
 msgid "Title"
 msgstr ""
@@ -1913,7 +1926,7 @@ msgstr ""
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:770
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1196
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1062
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:863
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1001
 #: includes/widgets/meafe-timeline/timeline.php:1012
 msgid "Navigation :: Arrow"
 msgstr ""
@@ -1943,9 +1956,9 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1070
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1237
 #: includes/widgets/meafe-testimonial/testimonial.php:732
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:803
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:871
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1038
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:940
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1009
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1176
 #: includes/widgets/meafe-timeline/timeline.php:1023
 #: includes/widgets/meafe-timeline/timeline.php:1201
 msgid "Size"
@@ -1954,7 +1967,7 @@ msgstr ""
 #: includes/widgets/meafe-advanced-testimonial/advanced-testimonial.php:915
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1370
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1182
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:983
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1121
 #: includes/widgets/meafe-timeline/timeline.php:1138
 msgid "Navigation :: Dots"
 msgstr ""
@@ -1973,7 +1986,7 @@ msgstr ""
 #: includes/widgets/meafe-featurelist/featurelist.php:269
 #: includes/widgets/meafe-post-carousel/post-carousel.php:941
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1397
-#: includes/widgets/meafe-post-modules/post-modules.php:226
+#: includes/widgets/meafe-post-modules/post-modules.php:227
 #: includes/widgets/meafe-pricing-table/pricing-table.php:886
 #: includes/widgets/meafe-pricing-table/pricing-table.php:1642
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:187
@@ -1985,7 +1998,7 @@ msgstr ""
 #: includes/widgets/meafe-team-carousel/team-carousel.php:396
 #: includes/widgets/meafe-team-carousel/team-carousel.php:1202
 #: includes/widgets/meafe-testimonial/testimonial.php:75
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1003
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:1141
 #: includes/widgets/meafe-timeline/timeline.php:1165
 msgid "Alignment"
 msgstr ""
@@ -2036,7 +2049,7 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:214
 #: includes/widgets/meafe-blog/blog.php:107
 #: includes/widgets/meafe-post-carousel/post-carousel.php:110
-#: includes/widgets/meafe-post-modules/post-modules.php:104
+#: includes/widgets/meafe-post-modules/post-modules.php:105
 msgid "Author"
 msgstr ""
 
@@ -2048,7 +2061,7 @@ msgstr ""
 #: includes/widgets/meafe-blockquote/blockquote.php:241
 #: includes/widgets/meafe-blockquote/blockquote.php:290
 #: includes/widgets/meafe-testimonial/testimonial.php:701
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:772
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:909
 msgid "Gap"
 msgstr ""
 
@@ -2066,7 +2079,7 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:135
 #: includes/widgets/meafe-post-carousel/post-carousel.php:138
-#: includes/widgets/meafe-post-modules/post-modules.php:132
+#: includes/widgets/meafe-post-modules/post-modules.php:133
 #: includes/widgets/meafe-pricing-table/pricing-table.php:382
 msgid "Exclude"
 msgstr ""
@@ -2078,39 +2091,39 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:156
 #: includes/widgets/meafe-post-carousel/post-carousel.php:159
-#: includes/widgets/meafe-post-modules/post-modules.php:144
+#: includes/widgets/meafe-post-modules/post-modules.php:145
 msgid "Order By"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:167
 #: includes/widgets/meafe-post-carousel/post-carousel.php:170
-#: includes/widgets/meafe-post-modules/post-modules.php:155
+#: includes/widgets/meafe-post-modules/post-modules.php:156
 msgid "Order"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:181
 #: includes/widgets/meafe-post-carousel/post-carousel.php:184
-#: includes/widgets/meafe-post-modules/post-modules.php:169
+#: includes/widgets/meafe-post-modules/post-modules.php:170
 msgid "Offset"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:182
 #: includes/widgets/meafe-post-carousel/post-carousel.php:185
-#: includes/widgets/meafe-post-modules/post-modules.php:170
+#: includes/widgets/meafe-post-modules/post-modules.php:171
 msgid "This option is used to exclude number of initial posts from being display."
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:207
 #: includes/widgets/meafe-cta/cta.php:69
 #: includes/widgets/meafe-post-carousel/post-carousel.php:210
-#: includes/widgets/meafe-post-modules/post-modules.php:195
+#: includes/widgets/meafe-post-modules/post-modules.php:196
 #: includes/widgets/meafe-tabs/tabs.php:60
 msgid "Layout"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:213
 #: includes/widgets/meafe-events/events.php:67
-#: includes/widgets/meafe-post-modules/post-modules.php:201
+#: includes/widgets/meafe-post-modules/post-modules.php:202
 #: includes/widgets/meafe-pricing-table/pricing-table.php:104
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:67
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:66
@@ -2124,7 +2137,7 @@ msgid "Layout Three"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:214
-#: includes/widgets/meafe-post-modules/post-modules.php:202
+#: includes/widgets/meafe-post-modules/post-modules.php:203
 #: includes/widgets/meafe-pricing-table/pricing-table.php:105
 #: includes/widgets/meafe-testimonial/testimonial.php:66
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:155
@@ -2132,7 +2145,7 @@ msgid "Layout Four"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:215
-#: includes/widgets/meafe-post-modules/post-modules.php:203
+#: includes/widgets/meafe-post-modules/post-modules.php:204
 #: includes/widgets/meafe-testimonial/testimonial.php:67
 #: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:156
 msgid "Layout Five"
@@ -2174,25 +2187,25 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:365
 #: includes/widgets/meafe-post-carousel/post-carousel.php:417
-#: includes/widgets/meafe-post-modules/post-modules.php:261
+#: includes/widgets/meafe-post-modules/post-modules.php:262
 msgid "Show Author"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:377
 #: includes/widgets/meafe-post-carousel/post-carousel.php:429
-#: includes/widgets/meafe-post-modules/post-modules.php:273
+#: includes/widgets/meafe-post-modules/post-modules.php:274
 msgid "Show Author Avatar"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:389
 #: includes/widgets/meafe-post-carousel/post-carousel.php:441
-#: includes/widgets/meafe-post-modules/post-modules.php:285
+#: includes/widgets/meafe-post-modules/post-modules.php:286
 msgid "Show Date"
 msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:401
 #: includes/widgets/meafe-post-carousel/post-carousel.php:453
-#: includes/widgets/meafe-post-modules/post-modules.php:297
+#: includes/widgets/meafe-post-modules/post-modules.php:298
 #: includes/widgets/meafe-product-cat-grid/product-cat-grid.php:87
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:128
 msgid "Show Category"
@@ -2254,8 +2267,8 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:941
 #: includes/widgets/meafe-post-carousel/post-carousel.php:999
-#: includes/widgets/meafe-post-modules/post-modules.php:432
-#: includes/widgets/meafe-post-modules/post-modules.php:534
+#: includes/widgets/meafe-post-modules/post-modules.php:433
+#: includes/widgets/meafe-post-modules/post-modules.php:619
 #: includes/widgets/meafe-product-cat-tab/product-cat-tab.php:849
 #: includes/widgets/meafe-services/services.php:570
 #: includes/widgets/meafe-services/services.php:613
@@ -2271,7 +2284,7 @@ msgstr ""
 #: includes/widgets/meafe-blog/blog.php:1033
 #: includes/widgets/meafe-category/category.php:342
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1079
-#: includes/widgets/meafe-post-modules/post-modules.php:568
+#: includes/widgets/meafe-post-modules/post-modules.php:653
 msgid "Meta Style"
 msgstr ""
 
@@ -2290,7 +2303,7 @@ msgstr ""
 
 #: includes/widgets/meafe-blog/blog.php:1109
 #: includes/widgets/meafe-post-carousel/post-carousel.php:1114
-#: includes/widgets/meafe-post-modules/post-modules.php:604
+#: includes/widgets/meafe-post-modules/post-modules.php:689
 msgid "Author Image"
 msgstr ""
 
@@ -3543,31 +3556,31 @@ msgstr ""
 msgid "Show Navigation Dots"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:211
+#: includes/widgets/meafe-post-modules/post-modules.php:212
 msgid "Item Spacing"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:335
+#: includes/widgets/meafe-post-modules/post-modules.php:336
 msgid "Post Row Spacing"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:350
+#: includes/widgets/meafe-post-modules/post-modules.php:351
 msgid "Post Column Spacing"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:402
+#: includes/widgets/meafe-post-modules/post-modules.php:403
 msgid "Feature Post Style"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:410
+#: includes/widgets/meafe-post-modules/post-modules.php:411
 msgid "Featured Post Title Style"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:466
+#: includes/widgets/meafe-post-modules/post-modules.php:467
 msgid "Feature Post Meta Style"
 msgstr ""
 
-#: includes/widgets/meafe-post-modules/post-modules.php:677
+#: includes/widgets/meafe-post-modules/post-modules.php:762
 msgid "Feature Image"
 msgstr ""
 
@@ -4649,12 +4662,12 @@ msgid "Select Position"
 msgstr ""
 
 #: includes/widgets/meafe-testimonial/testimonial.php:721
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:792
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:929
 msgid "Rating Stars"
 msgstr ""
 
 #: includes/widgets/meafe-testimonial/testimonial.php:779
-#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:850
+#: includes/widgets/meafe-testimonial-carousel/testimonial-carousel.php:988
 msgid "Unmarked Color"
 msgstr ""
 

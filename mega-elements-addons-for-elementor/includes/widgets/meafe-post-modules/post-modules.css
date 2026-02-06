@@ -308,6 +308,12 @@
     height: 85%;
 }
 
+.meafe-post-modules-wrapper.layout-5 .meafe-post-modules.items-right .meafe-post-modules-card {
+    background-color: var(--content-background-color);
+    padding: var(--content-padding);
+    border-radius: var(--content-border-radius);
+}
+
 @media only screen and (max-width: 768px) {
     .meafe-post-modules-wrapper .meafe-post-modules.items-left .meafe-post-modules-card-inner {
         min-height: 400px;

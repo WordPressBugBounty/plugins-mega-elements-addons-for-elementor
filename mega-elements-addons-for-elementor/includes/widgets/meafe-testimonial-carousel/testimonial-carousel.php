@@ -33,7 +33,7 @@ class MEAFE_Testimonial_Carousel extends Widget_Base {
     }
 
     public function get_style_depends() {
-        return ['meafe-testimonial-carousel', 'swiper', 'e-swiper'];
+        return ['meafe-testimonial-carousel', 'swiper', 'e-swiper', 'widget-star-rating'];
     }
 
     public function get_script_depends() {
@@ -403,6 +403,143 @@ class MEAFE_Testimonial_Carousel extends Widget_Base {
                 'tab'       => Controls_Manager::TAB_STYLE,
             ]
         );
+
+        $this->add_control(
+            'btcsgs_testimonial_title_content_style',
+            [
+                'type'      => Controls_Manager::HEADING,
+                'label'     => esc_html__( 'Content Style', 'mega-elements-addons-for-elementor' ),
+                'separator' => 'after',
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_responsive_control(
+            'btcsgs_testimonial_title_content_style_padding',
+            [
+                'label'     => esc_html__( 'Padding', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', 'em', '%' ],
+                'selectors' => [
+                    '{{WRAPPER}} .meafe-testimonial-desc-wrap' => '--content-padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}}',
+                ],
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->start_controls_tabs(
+            'btcsgs_testimonial_title_content_style_tabs',
+            [
+                'label' => esc_html__( 'Content Style', 'mega-elements-addons-for-elementor' ),
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->start_controls_tab(
+            'btcsgs_testimonial_title_content_style_normal',
+            [
+                'label' => esc_html__( 'Normal', 'mega-elements-addons-for-elementor' ),
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_control(
+            'btcsgs_testimonial_title_content_style_normal_background_color',
+            [
+                'label'     => esc_html__( 'Background Color', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .meafe-testimonial-desc-wrap' => '--content-background-color: {{VALUE}}',
+                ],
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_group_control(
+            Group_Control_Border::get_type(),
+            [
+                'name'      => 'PM_content_border',
+                'selector'  => '{{WRAPPER}} .meafe-testimonial-desc-wrap',
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_responsive_control(
+            'btcsgs_testimonial_title_content_style_normal_border_radius',
+            [
+                'label'     => esc_html__( 'Border Radius', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', 'em', '%' ],
+                'selectors' => [
+                    '{{WRAPPER}} .meafe-testimonial-desc-wrap' => '--content-border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}}',
+                ],
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->end_controls_tab();
+
+        $this->start_controls_tab(
+            'btcsgs_testimonial_title_content_style_hover',
+            [
+                'label' => esc_html__( 'Hover', 'mega-elements-addons-for-elementor' ),
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_control(
+            'btcsgs_testimonial_title_content_style_hover_background_color',
+            [
+                'label'     => esc_html__( 'Background Color', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::COLOR,
+                'selectors' => [
+                    '{{WRAPPER}} .meafe-testimonial-desc-wrap' => '--content-hover-background-color: {{VALUE}}',
+                ],
+                'condition' => [
+                    'btccgs_testimonial_carousel_layouts' => '4',
+                ],
+            ]
+        );
+
+        $this->add_group_control(
+            Group_Control_Border::get_type(),
+            [
+                'name'      => 'btcsgs_testimonial_title_content_style_hover_border',
+                'selector'  => '{{WRAPPER}} .meafe-testimonial-desc-wrap:hover',
+            ]
+        );
+
+        $this->add_responsive_control(
+            'btcsgs_testimonial_title_content_style_hover_border_radius',
+            [
+                'label'     => esc_html__( 'Border Radius', 'mega-elements-addons-for-elementor' ),
+                'type'      => Controls_Manager::DIMENSIONS,
+                'size_units' => [ 'px', 'em', '%' ],
+                'selectors' => [
+                    '{{WRAPPER}} .meafe-testimonial-desc-wrap:hover' => '--content-hover-border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}}',
+                ],
+            ]
+        );
+
+        $this->end_controls_tab();
+        
+        $this->end_controls_tabs();
 
         $this->add_control(
             'btcsgs_testimonial_title_heading_title',
@@ -839,6 +976,7 @@ class MEAFE_Testimonial_Carousel extends Widget_Base {
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .elementor-star-rating i:before' => 'color: {{VALUE}}',
+                    '{{WRAPPER}} .elementor-star-rating i' => 'color: {{VALUE}}',
                 ],
                 'separator' => 'before',
             ]

@@ -2,14 +2,18 @@
 /* Dual Header Widget
 /*------------------------------*/
 .meafe-dual-header .title {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .meafe-dualheading-align-center .title {
     text-align: center;
 }
 
-.meafe-dualheading-align-right .title {
+.meafe-dualheading-align-right .meafe-dual-header .title {
     text-align: right;
+}
+
+.meafe-dualheading-align-left .meafe-dual-header .title {
+    text-align: left;
 }
